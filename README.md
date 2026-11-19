@@ -1,23 +1,75 @@
 # CASE 404 — The Last Photograph
 
-A Halloween **digital-forensics murder mystery CTF** in the style of Hack The Box, for the GDG × Criminology & Forensics Club event. Teams of 2–3 get a challenge board, a Linux-style terminal with the evidence mounted at `~/case404`, a Caesar Lab, a cheat sheet, a case timeline and shared notes. The case opens in **three acts**: eight `FLAG{...}` challenges, each act mounting new evidence, then one accusation. There are no hints, no near-miss feedback and nothing points at the right file: teams dig through the evidence with `ls -a`, `grep`, `exiftool`, `sha256sum`, `diff`, `jq`, `sqlite3`, `strings` and friends. Beginners can warm up first in an unscored practice room.
+**A beginner-friendly digital forensics (DFIR) murder-mystery CTF, played in the browser.**
 
-Everything runs in the browser: the terminal executes its commands locally against the real evidence bytes. Players can also `download` any file and use their own tools.
+![The CASE 404 home page](docs/screenshots/home.jpg)
 
-> **Spoiler policy.** This README is spoiler-free. The culprit, flags and full solution are in [`private/organizer/`](private/organizer/), which the server reads but never serves. Don't copy that folder anywhere public.
+Blackthorn Hall, 31 October. The charity masquerade was at its loudest when the livestream went dark. At 00:06 the student organizer was found dead upstairs, and an anonymous message had already named a killer. Teams of 2–3 get 75 minutes, a Linux-style terminal over the evidence, and three acts of challenges to find out what really happened, then one accusation to name the killer, the motive and anyone who helped.
 
-Event-readiness fixes, verification, deployment and rollback: [docs/event-readiness.md](docs/event-readiness.md).
+Designed, built and presented by **Lea El Mawla** ([@lumawla](https://github.com/lumawla)).
 
-## Quick start
+> **Spoiler policy.** This README is spoiler-free. The culprit, flags and full solution live in [`private/organizer/`](private/organizer/), which the server reads but never serves. If you plan to play, don't open that folder.
 
-Requirements: Node.js **22.13+** (uses the built-in `node:sqlite`).
+## The event
+
+I presented CASE 404 live at a GDG × Criminology & Forensics Club (American University of Beirut) Halloween event, in two parts:
+
+1. **A short beginner lecture on DFIR, in collaboration with Hack The Box.** A 30-minute, hands-on introduction for people who had never used a terminal: what digital forensics is, reading the terminal, `grep`, hidden files, photo metadata, SHA-256 hashing, `diff`, the Caesar cipher, file formats and pipes, ending with the investigation method (question, locate, inspect, compare, record, submit). Every example uses fictional practice files, so nothing in the talk spoils the case.
+2. **The CTF itself.** Teams warmed up in the unscored practice room, then pressed Begin and worked the case against the clock.
+
+The slides I presented, with full speaker notes:
+[PowerPoint](docs/workshop/CASE404_Beginner_Forensics_Workshop.pptx) · [PDF](docs/workshop/CASE404_Beginner_Forensics_Workshop.pdf)
+
+[![Cover slide of the workshop deck](docs/screenshots/workshop-cover.jpg)](docs/workshop/CASE404_Beginner_Forensics_Workshop.pdf)
+
+## Skills demonstrated
+
+**Digital forensics and incident response**
+- Evidence integrity: a read-only evidence tree, intake manifests that seal items by SHA-256, and checking copies against recorded hashes.
+- Metadata and media forensics: EXIF timestamps (capture, modification and upload are different events) and what metadata can and can't prove.
+- Log analysis and timeline reconstruction: access-control, device and network logs, mail records and CCTV stills from many sources, correlated into one timeline.
+- Mobile and application artifacts: SQLite databases, JSON message exports, screenshots, and data an app no longer shows.
+- Document and financial records: text extraction from PDFs and comparing different versions of the same record.
+- Basic cryptanalysis: Caesar-shifted messages.
+
+**CTF and scenario design**
+- A three-act story where each act's evidence only mounts once enough of the previous act is solved, with a difficulty curve from easy (10 points) to hard (25 points).
+- Red herrings and evidence that isn't what it seems, so teams have to verify instead of guess, and a final accusation that needs a motive and supporting evidence, not just a name.
+- A beginner on-ramp: practice room, cheat sheet, in-terminal `help <command>`, and the workshop above.
+
+**Software and security engineering**
+- Full-stack TypeScript: a Fastify API on `node:sqlite`, a React + Vite client and shared packages in an npm workspace.
+- An in-browser shell with about 50 commands (pipes, globs, redirection, Tab completion and history) running over the real evidence bytes: `grep`, `find`, `jq`, `sqlite3`, `exiftool`, `strings`, `xxd`, `sha256sum`, `diff`, `pdftotext` and more.
+- Anti-cheat and spoiler separation: flags and the accusation rule are checked only on the server, sealed acts answer as if they don't exist, submissions are rate-limited, and a build step fails if the client bundle ever contains a flag, the solution or evidence content.
+- Reproducible content: the evidence, the photo evidence (AI-generated pictures of fictional people, graded to one look), the EXIF metadata and the hash manifests are all generated by scripts.
+
+**Testing and operations**
+- Unit and API integration tests (Vitest) and end-to-end playthroughs on desktop and phone (Playwright).
+- An organizer dashboard (pause and resume, open acts, extend time, announcements, audit log), a Docker image, a Render blueprint and a one-command free public link (`npm run host`) for event day.
+
+**Teaching and communication**
+- Wrote and delivered the beginner lecture, the speaker notes, the practice tasks and the in-game cheat sheet for people with no command-line experience.
+
+## A look inside
+
+| Investigation workspace | Case file |
+|---|---|
+| ![The challenge board beside the terminal, opening an evidence photo](docs/screenshots/workspace.jpg) | ![The case file with the persons of interest](docs/screenshots/case-file.jpg) |
+
+| Practice room | |
+|---|---|
+| ![The unscored practice room with its four warm-up tasks](docs/screenshots/practice-room.jpg) | Teams work a challenge board grouped by act next to the **Terminal**, **Caesar Lab**, **Timeline**, **Cheat sheet** and shared **Notes**. Players can also `download` any file and use their own tools. Every person, account, payment and place in the case is fictional. |
+
+## Run it yourself
+
+Requirements: Node.js **22.13+** (it uses the built-in `node:sqlite`).
 
 ```bash
 npm install
-npm run dev            # API on :8787 (tsx watch) + web on http://localhost:5173
+npm run dev            # API on :8787 + web on http://localhost:5173
 ```
 
-Dev defaults: organizer token `dev-admin-token` (sign in at `/admin`), database at `data/case404.db`. Teams need **2 members** to begin by default. Organizers must first enable **Teams may press Begin** in the dashboard. Open a second browser profile to join, or lower *Min team* to 1 in the admin dashboard.
+Sign in at `/admin` with the dev organizer token `dev-admin-token`, then turn on **Teams may press Begin**. Teams need **2 members** to begin by default: open a second browser profile to join, or lower *Min team* to 1 in the dashboard.
 
 ### Production
 
@@ -27,62 +79,54 @@ npm run build          # web → apps/web/dist, API → apps/api/dist/server.js
 NODE_ENV=production ADMIN_TOKEN='long-random' APP_SECRET='long-random' npm start
 ```
 
-The API serves the built client on the same origin (default port 8787). Put it behind an HTTPS reverse proxy (set `TRUST_PROXY=1`), or use the [`Dockerfile`](Dockerfile). **Free hosting for the event:** on an organizer laptop with [cloudflared](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/downloads/) installed, run `npm run host` — it starts the server and prints a public `https://…trycloudflare.com` link and the organizer token. A persistent Render blueprint ([`render.yaml`](render.yaml)) is also included for practice links. Details: [docs/event-runbook.md](docs/event-runbook.md#hosting-it-online-for-free). See [`.env.example`](.env.example) for all settings and [docs/event-runbook.md](docs/event-runbook.md) for event-day operations.
+The API serves the built client on the same origin (port 8787 by default). Put it behind an HTTPS reverse proxy (set `TRUST_PROXY=1`) or use the [`Dockerfile`](Dockerfile).
 
-## What's in the box
-
-| Area | Highlights |
-|---|---|
-| Player flow | Landing → create/join team (unguessable code, invite link) → lobby with the rules and the **practice room** → **Begin the investigation** → workspace, act by act → accusation → result |
-| Workspace | HTB-style challenge board grouped by act (sealed acts show only category, difficulty and points; category, solves, first blood, "Owned" stamp) beside the tools: **Terminal**, **Caesar Lab**, **Timeline**, **Cheat sheet**, **Notes**. Opening an act shows its briefing and mounts its evidence in the terminal. Case file (story and people), Accuse, Scoreboard. |
-| Terminal | ~50 commands with pipes, `;`/`&&`/`||`, globs, `>`/`>>` into `/tmp`, Tab completion and history: `ls -la`, `cd`, `cat`, `head`/`tail`, `grep -rniE -A/-B/-C`, `find`, `tree -a`, `wc`, `sort`, `uniq`, `cut`, `column`, `awk`, `jq`, `tr`, `diff [-u]`, `cmp`, `sha256sum [-c]`, `sha1sum`, `md5sum`, `file`, `exiftool`, `strings`, `xxd`, `hexdump -C`, `base64`, `pdftotext`, `sqlite3` (read-only, `.tables`/`.schema`/`SELECT`), `open` (images inline, PDFs in a tab), `download`. Dotfiles stay hidden until you ask for them. `help <command>` shows examples. |
-| Caesar Lab | An empty box, a shift dial and the letter mapping. No brute force and no suggestions. |
-| Server rules | Server-authoritative 75-minute timer, acts unlocked by solves (sealed files and challenges answer as if they didn't exist), flags validated server-side only, per-challenge rate limiting, global solve counts and first blood, two-attempt accusation (suspect + motive + up to three files, optional accomplice bonus) that opens with the final act and never explains a rejection |
-| Organizers | `/admin`: event settings, emergency pause/resume (deadlines shift), reveal, announcements, per-team open act/extend/reset/regenerate code/remove member, accusation review, CSV export, audit log |
-| Accessibility | Keyboard-complete, skip links, focus-managed dialogs, polite live region, on-demand timer announcements, reduced motion, text scaling, high contrast, phone layout |
+- **Free hosting for the event:** on a laptop with [cloudflared](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/downloads/) installed, `npm run host` starts the server and prints a public `https://…trycloudflare.com` link and the organizer token.
+- **Persistent practice link:** a Render blueprint is included in [`render.yaml`](render.yaml).
+- All settings are in [`.env.example`](.env.example). Event-day operations are in [docs/event-runbook.md](docs/event-runbook.md), and verification and rollback in [docs/event-readiness.md](docs/event-readiness.md).
 
 ## Commands
 
 | Command | What it does |
 |---|---|
-| `npm run dev` | API + web dev servers |
-| `npm run build` | Production build of web and API |
+| `npm run dev` | API and web dev servers |
+| `npm run build` | Production build of web and API, including the spoiler-leak check |
 | `npm start` | Run the built server |
-| `npm run host` | Free event hosting from a laptop: production server + public Cloudflare tunnel link |
-| `npm test` | Unit + API integration tests (Vitest) |
-| `npm run test:e2e` | Playwright playthrough (desktop + phone); run `npm run build` first |
+| `npm run host` | Production server plus a free public Cloudflare tunnel link |
+| `npm test` | Unit and API integration tests (Vitest) |
+| `npm run test:e2e` | Playwright playthroughs on desktop and phone (run `npm run build` first) |
 | `npm run typecheck` | TypeScript across all packages |
 | `npm run check:bundle` | Fails if the built client contains flags, the accusation rule, the solution or evidence content |
-| `npm run evidence` | Rebuilds the record evidence (door logs, registries, booth logs, ledgers, Wi-Fi log, the Messages database, the practice lists) from one seeded timeline, then re-hashes the intake manifests |
-| `npm run photos` | Rebuilds the character portraits and the photo evidence (stage, booth, CCTV, practice cat) from the AI-generated source pictures in `scripts/art/photos/` with one shared camera look (Python 3 + Pillow + numpy); run `npm run assets` after it to add the story EXIF |
-| `npm run assets` | Regenerates placeholder artwork and image/PDF evidence (JPEG/PNG/PDF/SVG) with Chromium, then re-hashes the intake manifests |
+| `npm run evidence` | Rebuilds the record evidence (logs, registries, ledgers, the Messages database, the practice lists) from one seeded timeline and re-hashes the intake manifests |
+| `npm run photos` | Rebuilds the portraits and photo evidence from the AI-generated pictures in `scripts/art/photos/` (Python 3 with Pillow and numpy); run `npm run assets` after it |
+| `npm run assets` | Regenerates the image and PDF evidence with Chromium, writes the story EXIF and re-hashes the intake manifests |
 
 ## Repository layout
 
 ```text
 apps/
-  api/            Fastify + node:sqlite server (teams, timer, flags, accusation, notes, admin)
-  web/            React + Vite client
-    src/terminal/ The in-browser shell: virtual file system, parser, ~50 commands (pure TS, unit-tested)
-packages/shared/  Types and pure logic used by both (Caesar, EXIF reader, rules)
+  api/              Fastify + node:sqlite server (teams, timer, flags, accusation, notes, admin)
+  web/              React + Vite client
+    src/terminal/   The in-browser shell: virtual file system, parser, ~50 commands
+packages/shared/    Types and pure logic used by both (Caesar, EXIF reader, rules)
 content/
-  public/         Story for the Case File page and the venue plan
-  evidence/fs/    The evidence tree players explore (~/case404), plus meta.json (timestamps, the act each file opens in)
-  training/       The practice room's folder (~/training) and its four tasks
-  gated/          Challenges, acts, timeline, accusation options, endings (served as each act opens)
-private/organizer Answer key and facilitator sheet — server-only, never web-served
-scripts/          Evidence and asset generators, hosting helper, e2e server, dev runner, bundle spoiler check
-tests/            unit/, integration/, e2e/
-design-system/    Palette, type and interaction rules (MASTER.md)
-docs/             Architecture, runbook, QA checklist, decisions
+  public/           Story for the case file page and the venue plan
+  evidence/fs/      The evidence players explore (~/case404), plus meta.json (timestamps, the act each file opens in)
+  training/         The practice room's folder (~/training) and its four tasks
+  gated/            Challenges, acts, timeline, accusation options (served as each act opens)
+private/organizer/  Answer key and facilitator sheet: server-only, never served
+scripts/            Evidence, photo and asset generators, hosting helper, test server, spoiler check
+tests/              unit/, integration/, e2e/
+docs/               Architecture, runbook, QA checklist, decisions, the workshop deck, screenshots
+design-system/      Palette, type and interaction rules
 ```
 
 ## Documentation
 
-- [docs/architecture.md](docs/architecture.md) — components, data model, security and spoiler separation
-- [docs/event-runbook.md](docs/event-runbook.md) — before / during / after the event, emergencies
-- [docs/qa-checklist.md](docs/qa-checklist.md) — acceptance criteria and how each is verified
-- [docs/decisions.md](docs/decisions.md) — choices, corrections and what changed in the revamp
-- [design-system/case-404/MASTER.md](design-system/case-404/MASTER.md) — visual and interaction rules
+- [docs/architecture.md](docs/architecture.md): components, data model, security and spoiler separation
+- [docs/event-runbook.md](docs/event-runbook.md): before, during and after the event, and emergencies
+- [docs/qa-checklist.md](docs/qa-checklist.md): acceptance criteria and how each is verified
+- [docs/decisions.md](docs/decisions.md): design choices and what changed along the way
+- [design-system/case-404/MASTER.md](design-system/case-404/MASTER.md): visual and interaction rules
 
-All characters, accounts, payments, messages and places are fictional.
+All characters, accounts, payments, messages and places are fictional. The people in the photos are AI-generated and don't exist.
