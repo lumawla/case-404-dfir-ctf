@@ -1,0 +1,8 @@
+DIGITAL EVIDENCE RESPONSE - MOBILE EXTRACTION REPORT
+Reference:  DER-404-P1
+Device:     iPhone (owner: Nadia Haddad), found on the projection desk,
+            screen unlocked
+Extraction: logical, 2026-11-01 00:47 (+02:00)
+Contents:   messenger/   MASKED Messenger conversations
+            media_log.csv   camera roll index
+Pending:    full file-system extraction (mail, app data)

@@ -1,0 +1,15 @@
+DIGITAL EVIDENCE RESPONSE - INTERVIEW RECORD
+Subject:  Tara Rahal (staff badge T09), DJ and AV lead
+Taken:    2026-11-01 00:40 (+02:00), DJ/AV station
+Method:   in person, written down and read back to the subject
+
+Q: The livestream went down at 23:47, just before the incident window.
+A: The encoder choked on the uplink. I restarted it from the console and
+   stayed on it until it came back at 23:57.
+
+Q: Did you go to the projection room tonight?
+A: Once, a bit after eleven, to check the projector. Not after that.
+
+Q: Nadia had questions about AV invoices.
+A: She asked me for the Black Cat AV paperwork. I told her the treasurer
+   handles payments. I only book the gear.

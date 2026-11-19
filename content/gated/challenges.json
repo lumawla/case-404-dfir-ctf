@@ -1,0 +1,77 @@
+{
+  "$comment": "Served only to teams whose act is open. Answers live in private/organizer/answers.json. Descriptions are deliberately terse: no tools, no file names, no hints.",
+  "challenges": [
+    {
+      "id": "EV01",
+      "act": 1,
+      "title": "Moth",
+      "category": "Crypto",
+      "difficulty": "Easy",
+      "description": "Someone calling themselves MOTH was talking to Nadia in the last half hour of her life. The messenger kept every word. It just didn't keep them readable. Where and when were they meeting?",
+      "format": "FLAG{PLACE_HHMM} · place in capitals, words joined with underscores · 24-hour time"
+    },
+    {
+      "id": "EV02",
+      "act": 1,
+      "title": "The Door",
+      "category": "Forensics",
+      "difficulty": "Easy",
+      "description": "At 00:03, three minutes before anyone found Nadia, someone posted a door log in the staff channel. According to that log, which credential opened the projection room just before midnight, and when?",
+      "format": "FLAG{CREDENTIAL_HHMM} · 24-hour time"
+    },
+    {
+      "id": "EV03",
+      "act": 2,
+      "title": "Not in the Picture",
+      "category": "Forensics",
+      "difficulty": "Medium",
+      "description": "Salma swears she was alone in the booth, and her print agrees. The booth itself remembers things a photograph can't. Which session were they in, and when did the shutter fire?",
+      "format": "FLAG{SESSION_HHMM} · 24-hour time"
+    },
+    {
+      "id": "EV04",
+      "act": 2,
+      "title": "Cropped",
+      "category": "Mobile",
+      "difficulty": "Medium",
+      "description": "The screenshot in the staff channel shows one message. Nadia's phone remembers the whole conversation. What did Lucien actually say about changing the photos?",
+      "format": "FLAG{HIS_EXACT_WORDS} · capitals, words joined with underscores, no punctuation"
+    },
+    {
+      "id": "EV05",
+      "act": 2,
+      "title": "Two Copies",
+      "category": "Forensics",
+      "difficulty": "Hard",
+      "description": "More than one copy of the door log is going around, and they don't agree. Only one is the controller's own record. Which badge really opened the projection room at 23:49, and when did it leave?",
+      "format": "FLAG{BADGE_HHMM} · badge, then its exit time"
+    },
+    {
+      "id": "EV06",
+      "act": 3,
+      "title": "Deleted",
+      "category": "Mobile",
+      "difficulty": "Hard",
+      "description": "Salma cleared a conversation before investigators took her phone. Phones forget less than their owners think. Until what time was she told to keep Lucien in the booth?",
+      "format": "FLAG{HHMM} · 24-hour time"
+    },
+    {
+      "id": "EV07",
+      "act": 3,
+      "title": "Halo, Delayed",
+      "category": "Forensics",
+      "difficulty": "Easy",
+      "description": "Yasmine's alibi is a photo of her onstage, posted at 23:53. Eighty-seven people liked it. When was the photograph actually taken?",
+      "format": "FLAG{HHMM} · 24-hour local time"
+    },
+    {
+      "id": "EV08",
+      "act": 3,
+      "title": "Clean Books",
+      "category": "Forensics",
+      "difficulty": "Hard",
+      "description": "Nadia was going to the Dean about money that wasn't where it should be. The finance export looks spotless. Spotless is suspicious. Which account received the payment that somebody erased?",
+      "format": "FLAG{NNNN} · last four digits of the account"
+    }
+  ]
+}

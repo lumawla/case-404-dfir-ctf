@@ -1,0 +1,30 @@
+# Persistent event deployment. Requires a paid disk; never deploy during play.
+services:
+  - type: web
+    name: case-404
+    runtime: node
+    plan: starter
+    region: frankfurt # closest Render region to Beirut
+    buildCommand: npm ci --include=dev && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/health
+    autoDeploy: false # never restart mid-event because of a push
+    disk:
+      name: case404-data
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: DATABASE_PATH
+        value: /var/data/case404.db
+      - key: NODE_VERSION
+        value: "22"
+      - key: NODE_ENV
+        value: production
+      - key: TRUST_PROXY
+        value: "1"
+      - key: PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD
+        value: "1"
+      - key: ADMIN_TOKEN
+        sync: false # you type this in the dashboard; at least 16 characters
+      - key: APP_SECRET
+        generateValue: true

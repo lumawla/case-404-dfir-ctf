@@ -1,0 +1,2 @@
+# sha256 of guests.csv when it was exported from the ticket system (2026-10-01 09:20)
+c4dd5aafc764745d06bcc0d31d84453ee6663ad14dfbbfb137a9285584cbb3a3  guests.csv

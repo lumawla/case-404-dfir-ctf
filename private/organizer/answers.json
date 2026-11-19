@@ -1,0 +1,45 @@
+{
+  "$comment": "ORGANIZER-ONLY. Read by the API at startup; never web-served, never bundled. Override the path with CASE_ANSWERS_PATH.",
+  "flags": {
+    "EV01": "FLAG{PROJECTION_ROOM_2350}",
+    "EV02": "FLAG{L07_2349}",
+    "EV03": "FLAG{S27_2352}",
+    "EV04": "FLAG{I_DID_NOT_CHANGE_THEM}",
+    "EV05": "FLAG{A14_2355}",
+    "EV06": "FLAG{2355}",
+    "EV07": "FLAG{2328}",
+    "EV08": "FLAG{0412}"
+  },
+  "verdict": {
+    "$comment": "Correct when the suspect and motive match and the cited files cover every group, each group by a different file. Naming the accomplice is a bonus, never required. Paths are relative to ~/case404.",
+    "suspect": "yasmine",
+    "motive": "report",
+    "accomplice": "salma",
+    "groups": {
+      "money": [
+        "finance/.backup/ledger_2026-10-30.csv",
+        "finance/reimbursements/STAFF-2026-18.txt",
+        "finance/invoices/BC-104.pdf",
+        "phones/nadia_haddad/mail/outbox.json",
+        "logs/staff_dashboard_audit.csv"
+      ],
+      "scene": [
+        "access_control/exports/ACS-EXP-7731.csv",
+        "cctv/nvr8/CAM-03_20261031_234807.jpg",
+        "cctv/nvr8/CAM-01_dj_station.csv",
+        "logs/maskmail_auth.log",
+        "phones/salma_nasser/sms.db",
+        "network/wifi.log",
+        "social/originals/IMG_4471.jpg",
+        "social/audit/msp-oct31-0442.json",
+        "logs/staff_dashboard_audit.csv"
+      ]
+    }
+  },
+  "practice": {
+    "hidden": "FLAG{LANTERN}",
+    "metadata": "FLAG{0915}",
+    "integrity": "FLAG{B}",
+    "cipher": "FLAG{PUMPKIN}"
+  }
+}

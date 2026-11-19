@@ -1,0 +1,75 @@
+{
+  "$comment": "Public story for the Case File page. Story only: no motives spelled out, no hints. Evidence lives in the file system.",
+  "caseId": "404",
+  "title": "The Last Photograph",
+  "briefing": [
+    "Blackthorn Hall, 31 October 2026. The charity masquerade for the children's ward was at its loudest when the public livestream went dark at 23:47. At 00:06, Nadia Haddad, the student chair who organized it, was found dead in the projection room upstairs.",
+    "Three minutes before she was found, an anonymous message in the staff channel had already named a killer: Lucien Moreau, the quiet guest in the vampire costume. Everyone believed it.",
+    "The case opens in three acts. Each act mounts new evidence once your team has answered enough of the last. When the final act is open, name the killer, the motive and anyone who helped. You get two accusations."
+  ],
+  "victim": {
+    "id": "nadia",
+    "name": "Nadia Haddad",
+    "alias": "The Fortune Teller",
+    "costume": "Gold coin headband, a crescent moon painted on her forehead, tarot cards, a blue dress with glittering sheer sleeves",
+    "role": "Student chair and organizer of the charity masquerade",
+    "relationship": "Victim",
+    "portrait": "/portraits/nadia.jpg",
+    "portraitAlt": "Nadia peeking over a fan of black-and-gold tarot cards, wearing a gold coin headband with a small crescent moon painted on her forehead.",
+    "summary": "Found in the projection room at 00:06 on 1 November. Struck with a brass prize trophy kept in the room. Working incident window: 23:50 to 23:55."
+  },
+  "suspects": [
+    {
+      "id": "lucien",
+      "name": "Lucien Moreau",
+      "alias": "The Vampire",
+      "costume": "Black cape with a high red-lined collar, fangs. Very convincing.",
+      "role": "Guest; art history master's student",
+      "relationship": "First time at the masquerade. Named by the anonymous message at 00:03.",
+      "portrait": null,
+      "portraitNote": "No photo on file. Camera shy."
+    },
+    {
+      "id": "yasmine",
+      "name": "Yasmine Mansour",
+      "alias": "The Angel",
+      "costume": "White satin dress, white feathered wings, a silver star necklace",
+      "role": "Event treasurer",
+      "relationship": "Nadia's co-organizer; handled the budget and vendor payments",
+      "portrait": "/portraits/yasmine.jpg",
+      "portraitAlt": "Yasmine in a white satin dress and white feathered wings, head tilted, long blonde hair, a silver star necklace."
+    },
+    {
+      "id": "karim",
+      "name": "Karim Darwish",
+      "alias": "The Masked Killer",
+      "costume": "Hockey mask, plaid shirt under a brown jacket, jeans, work gloves and an obviously fake foam machete",
+      "role": "Former event co-organizer",
+      "relationship": "Removed from the committee on October 18 after Nadia accused him of mishandling ticket sales",
+      "portrait": "/portraits/karim.jpg",
+      "portraitAlt": "Karim in a yellowed hockey mask, a brown jacket over a blue plaid shirt and jeans, holding a foam prop machete with painted red streaks."
+    },
+    {
+      "id": "tara",
+      "name": "Tara Rahal",
+      "alias": "The Mad Scientist",
+      "costume": "Fake-blood-spattered lab coat with a lab ID badge, round dark goggles, rubber props in the pockets",
+      "role": "DJ and AV technician",
+      "relationship": "Ran sound, lights and the livestream; administered AV equipment rentals",
+      "portrait": "/portraits/tara.jpg",
+      "portraitAlt": "Tara in a white lab coat splattered with fake blood, round dark goggles and a lab ID badge, rubber fingers poking out of a pocket."
+    }
+  ],
+  "witnesses": [
+    {
+      "id": "salma",
+      "name": "Salma Nasser",
+      "alias": "The Witch",
+      "costume": "Pointed black witch hat, black lace dress, dark lipstick",
+      "role": "Guest; art history student",
+      "relationship": "Lucien says she was with him in the photo booth. She says she was alone.",
+      "portrait": "/portraits/salma.jpg",
+      "portraitAlt": "Salma in a tall black witch's hat and a black lace dress, long auburn hair, laughing, holding a drink."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "manifest": "CASE 404 - EVIDENCE INTAKE, BATCH 1",
+  "intake_desk": "Digital Evidence Response",
+  "hash_algorithm": "SHA-256",
+  "paths_relative_to": "~/case404",
+  "hashed": "At collection, before any analysis",
+  "sealed": [
+    {
+      "item": "DER-404-01",
+      "description": "Access controller (ACS) log, all readers, window 2026-10-31 18:00-24:00, pulled by DER directly from the controller's read-only mirror",
+      "collected_at": "2026-11-01T00:22:00+02:00",
+      "note": "Retained on DER storage. Any working copy of this log must match this hash.",
+      "bytes": 17856,
+      "sha256": "4359805ecab2319a510bc4e2f81c20535b7cc0551b980e710ac0d671ab8ce0ad"
+    },
+    {
+      "item": "DER-404-02",
+      "path": "photobooth/device.log",
+      "description": "PhotoBooth PB-2 device log",
+      "collected_at": "2026-11-01T00:29:40+02:00",
+      "bytes": 10257,
+      "sha256": "03903758b3e7ac90e916c1362de8dc410250aa92122cd60230749dd8a4bccb4b"
+    },
+    {
+      "item": "DER-404-03",
+      "path": "photobooth/DCIM/PB2_0027.jpg",
+      "description": "PhotoBooth PB-2 frame exported by DER",
+      "collected_at": "2026-11-01T00:29:40+02:00",
+      "bytes": 458051,
+      "sha256": "3ca4a9e34a2c295bb03a246dc87a48c00598f09efd2467aa3df5605d4c73b702"
+    },
+    {
+      "item": "DER-404-04",
+      "path": "phones/nadia_haddad/media_log.csv",
+      "description": "Victim's phone, camera roll index (logical extraction)",
+      "collected_at": "2026-11-01T00:47:00+02:00",
+      "bytes": 677,
+      "sha256": "7e9034a8a59261a1e8819a573032434f5c4b273cfdac293fc6caf415740f360d"
+    },
+    {
+      "item": "DER-404-05",
+      "path": "campus_security/GATE-N_index.csv",
+      "description": "Campus camera GATE-N clip index",
+      "collected_at": "2026-11-01T00:40:08+02:00",
+      "bytes": 387,
+      "sha256": "8c69e9b3a7076409cadc1982958ec98355ad888436b6c206a16e2ecf1361da3f"
+    }
+  ],
+  "not_sealed": "Material received second-hand (forwarded files, screenshots, re-exports) is not authenticated and is not listed.",
+  "notice": "Fictional in-story record for CASE 404. Not a real legal certification."
+}

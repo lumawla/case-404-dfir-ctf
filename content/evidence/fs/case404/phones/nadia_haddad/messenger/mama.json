@@ -1,0 +1,11 @@
+{
+  "app": "MASKED Messenger",
+  "device": "Nadia Haddad - iPhone (extraction DER-404-P1)",
+  "participants": ["NADIA", "MAMA"],
+  "messages": [
+    { "id": "mm-88", "time": "2026-10-30 08:12", "from": "MAMA", "text": "Don't stay up all night with the party planning. Eat something." },
+    { "id": "mm-89", "time": "2026-10-30 08:40", "from": "NADIA", "text": "I won't. Almost done. Big day tomorrow." },
+    { "id": "mm-95", "time": "2026-10-31 21:20", "from": "NADIA", "text": "It's going really well. Something at work I have to deal with tomorrow morning, but tonight is good." },
+    { "id": "mm-96", "time": "2026-10-31 21:22", "from": "MAMA", "text": "Proud of you habibti. Send pictures." }
+  ]
+}

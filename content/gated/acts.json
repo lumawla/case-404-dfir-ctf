@@ -1,0 +1,23 @@
+{
+  "$comment": "Act titles and story beats. An act's title and intro are only sent once it is open. Unlock rules live in packages/shared/src/rules.ts.",
+  "acts": [
+    {
+      "n": 1,
+      "title": "The Meeting",
+      "intro": "Nadia had a meeting in the last half hour of her life. Three minutes before she was found, the staff channel had already named a killer.",
+      "mounts": ["incident_report.txt", "interviews/", "maskmail/", "staff_channel/", "venue/", "social/", "logs/"]
+    },
+    {
+      "n": 2,
+      "title": "The Booth",
+      "intro": "The staff channel has its killer: Lucien Moreau, the guest who won't be photographed. Lucien says he was in the photo booth with Salma Nasser when it happened. Salma says she was alone, and she has the print to prove it.",
+      "mounts": ["photobooth/", "phones/nadia_haddad/", "access_control/", "intake/", "campus_security/"]
+    },
+    {
+      "n": 3,
+      "title": "The Angel",
+      "intro": "Lucien was where he said he was. Somebody wanted him to look like a liar, and Salma lied for them. Her phone has been seized, and the rest of the records are in.",
+      "mounts": ["phones/salma_nasser/", "phones/nadia_haddad/mail/", "social/audit/", "social/originals/", "network/", "finance/", "logs/", "cctv/", "intake/manifest_2.json"]
+    }
+  ]
+}

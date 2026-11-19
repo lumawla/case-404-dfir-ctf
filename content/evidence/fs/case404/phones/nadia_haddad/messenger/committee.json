@@ -1,0 +1,20 @@
+{
+  "app": "MASKED Messenger",
+  "device": "Nadia Haddad - iPhone (extraction DER-404-P1)",
+  "group": "Masquerade Committee",
+  "participants": ["NADIA", "YASMINE", "TARA", "SAMI", "ZIAD", "MIRA"],
+  "messages": [
+    { "id": "gc-201", "time": "2026-10-18 20:40", "from": "NADIA", "text": "Karim is off the committee as of tonight. His badge is deactivated. Let's keep this professional." },
+    { "id": "gc-202", "time": "2026-10-18 20:44", "from": "TARA", "text": "Understood." },
+    { "id": "gc-210", "time": "2026-10-24 17:05", "from": "SAMI", "text": "Reminder: projection room stays locked during events. Badge access only." },
+    { "id": "gc-215", "time": "2026-10-27 12:30", "from": "ZIAD", "text": "Photo desk will be by the stage. I'll shoot the run-through too." },
+    { "id": "gc-221", "time": "2026-10-29 19:15", "from": "YASMINE", "text": "Black Cat AV confirmed for setup on the 31st." },
+    { "id": "gc-230", "time": "2026-10-30 18:00", "from": "NADIA", "text": "Final run-of-show: 21:00 doors | 22:00 costume parade | 23:20 stage run-through | 23:50 charity thank-you (Yasmine) | 00:00 countdown (me)" },
+    { "id": "gc-231", "time": "2026-10-30 18:02", "from": "YASMINE", "text": "Got it. Ten to twelve, I'll be ready." },
+    { "id": "gc-232", "time": "2026-10-30 18:05", "from": "TARA", "text": "I'll fire the speech cue from the console at 23:50." },
+    { "id": "gc-240", "time": "2026-10-31 20:58", "from": "MIRA", "text": "Haze machines are go." },
+    { "id": "gc-246", "time": "2026-10-31 22:10", "from": "ZIAD", "text": "Costume parade photos are up on the desk laptop if anyone wants them." },
+    { "id": "gc-251", "time": "2026-10-31 23:22", "from": "ZIAD", "text": "Run-through done, got some nice ones of Yasmine." },
+    { "id": "gc-258", "time": "2026-11-01 00:08", "from": "SAMI", "text": "Police and DER are on their way. Nobody leaves." }
+  ]
+}

@@ -1,0 +1,11 @@
+# Use LF line endings in every checkout, including Git for Windows with core.autocrlf=true.
+* text=auto eol=lf
+
+# Evidence files are byte-exact: their SHA-256 hashes are part of the EV-05 puzzle and are
+# checked against the intake manifest. Git must never rewrite them.
+content/evidence/** -text
+content/training/** -text
+
+*.jpg binary
+*.png binary
+*.pdf binary

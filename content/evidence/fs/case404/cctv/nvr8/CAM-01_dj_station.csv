@@ -1,0 +1,10 @@
+time,source,location,observation
+23:47:05,NVR-8 CAM-01,DJ/AV station,"Person in lab coat and goggles (T09) at the encoder rack; encoder restarting"
+23:47:40,Mixing console log,DJ/AV station,"Channel 3 fader moved; operator login T09"
+23:49:12,Mixing console log,DJ/AV station,"Encoder firmware reload 1/3 started from console"
+23:50:05,Mixing console log,DJ/AV station,"Speech cue fired (charity thank-you); stage mic idle, no input"
+23:50:31,Mixing console log,DJ/AV station,"Main floor playlist cue advanced"
+23:52:18,NVR-8 CAM-01,DJ/AV station,"T09 at the mixing console; stage behind her is empty"
+23:53:02,Mixing console log,DJ/AV station,"Encoder firmware reload 2/3 started from console"
+23:54:41,NVR-8 CAM-01,DJ/AV station,"T09 at the console, headphones on"
+23:57:00,Encoder log,DJ/AV station,"Stream ONLINE (restored by T09)"

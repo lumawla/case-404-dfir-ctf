@@ -1,0 +1,21 @@
+Oct 31 20:58:41 maskmail-01 authd[412]: session open alias=PUMPKINKING account=guest:G11 src=10.31.4.31
+Oct 31 21:02:13 maskmail-01 msgd[415]: message stored alias=PUMPKINKING thread=19bd
+Oct 31 21:05:50 maskmail-01 authd[412]: session close alias=PUMPKINKING account=guest:G11
+Oct 31 21:09:30 maskmail-01 authd[412]: session open alias=NADIA account=nadia.chair src=10.31.0.11
+Oct 31 21:15:02 maskmail-01 authd[412]: session open alias=GHOSTLIGHT account=tara.av src=10.31.0.23
+Oct 31 21:16:40 maskmail-01 msgd[415]: message stored alias=GHOSTLIGHT thread=7f3a
+Oct 31 21:18:05 maskmail-01 msgd[415]: message stored alias=NADIA thread=7f3a
+Oct 31 21:20:11 maskmail-01 authd[412]: session close alias=GHOSTLIGHT account=tara.av
+Oct 31 22:14:09 maskmail-01 authd[412]: session open alias=HEXED account=guest:G17 src=10.31.4.27
+Oct 31 22:15:31 maskmail-01 msgd[415]: message stored alias=HEXED thread=19bd
+Oct 31 22:19:58 maskmail-01 authd[412]: session close alias=HEXED account=guest:G17
+Oct 31 23:21:40 maskmail-01 authd[412]: session open alias=BANSHEE account=guest:G31 src=10.31.4.36
+Oct 31 23:22:02 maskmail-01 authd[412]: session close alias=BANSHEE account=guest:G31
+Oct 31 23:33:05 maskmail-01 authd[412]: session open alias=MOTH account=yasmine.treasurer src=10.31.0.14
+Oct 31 23:34:12 maskmail-01 msgd[415]: message stored alias=NADIA thread=c41e
+Oct 31 23:35:27 maskmail-01 msgd[415]: message stored alias=MOTH thread=c41e
+Oct 31 23:36:19 maskmail-01 msgd[415]: message stored alias=NADIA thread=c41e
+Oct 31 23:37:48 maskmail-01 msgd[415]: message stored alias=MOTH thread=c41e
+Oct 31 23:38:30 maskmail-01 authd[412]: session close alias=MOTH account=yasmine.treasurer
+Oct 31 23:46:02 maskmail-01 authd[412]: session close alias=NADIA account=nadia.chair (idle timeout)
+Nov  1 00:44:10 maskmail-01 exportd[420]: archive export threads=19bd,7f3a,c41e requested_by=der-intake

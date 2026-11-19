@@ -1,0 +1,20 @@
+{
+  "app": "Mail",
+  "device": "Nadia Haddad - iPhone (file-system extraction DER-404-P1b, 2026-11-01 01:40)",
+  "account": "nadia.haddad@blackthorn.example",
+  "outbox": [
+    {
+      "id": "msg-7Q2K",
+      "to": ["dean.students@blackthorn.example"],
+      "cc": ["finance@studentunion.blackthorn.example"],
+      "subject": "Misuse of Halloween fundraiser money",
+      "body": "Dear Dean Rahme,\n\nI'm writing as chair of the Halloween Charity Masquerade. Our treasurer, Yasmine Mansour, has been paying money from the fundraiser account to herself. The most recent case is a duplicate Black Cat AV payment that was later deleted from the expense export. The vendor confirms it never received it. Last night's ledger backup and the vendor's statement are attached.\n\nI told Yasmine tonight and gave her until the morning to explain. This money belongs to the children's ward.\n\nNadia Haddad",
+      "attachments": ["ledger_2026-10-30.csv", "BlackCatAV_statement_BC-104.pdf"],
+      "created": "2026-10-31T21:38:55+02:00",
+      "scheduled_for": "2026-11-01T08:00:00+02:00",
+      "status": "CANCELLED",
+      "cancelled_at": "2026-10-31T23:54:31+02:00",
+      "cancelled_from": "this device"
+    }
+  ]
+}

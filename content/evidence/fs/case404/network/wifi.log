@@ -1,0 +1,96 @@
+2026-10-31 18:03:10 wlc-01 dhcp lease ip=10.31.0.23 mac=a4:5e:60:1c:22:9d host=DJ-STATION
+2026-10-31 18:03:14 wlc-01 roam client=a4:5e:60:1c:22:9d host=DJ-STATION from=BACKSTAGE to=AP-STAGE rssi=-63
+2026-10-31 18:42:05 wlc-01 dhcp lease ip=10.31.0.11 mac=52:7c:19:e3:08:a6 host=Nadias-iPhone
+2026-10-31 18:45:22 wlc-01 dhcp lease ip=10.31.0.14 mac=6e:02:aa:91:4c:1b host=Yasmines-iPhone
+2026-10-31 19:48:00 wlc-01 dhcp lease ip=10.31.4.29 mac=6d:e8:bc:10:de:e6 host=iPhone-39
+2026-10-31 19:57:00 wlc-01 dhcp lease ip=10.31.4.37 mac=cb:2b:ac:bd:50:69 host=Pixel-9-977
+2026-10-31 19:59:00 wlc-01 dhcp lease ip=10.31.4.38 mac=ed:aa:dc:3a:e1:42 host=iPhone-52
+2026-10-31 20:00:00 wlc-01 dhcp lease ip=10.31.4.20 mac=9c:67:1e:1b:dd:5e host=Galaxy-S24-942
+2026-10-31 20:08:00 wlc-01 dhcp lease ip=10.31.4.25 mac=18:ad:cb:98:80:ff host=iPhone-82
+2026-10-31 20:08:07 wlc-01 roam client=cb:2b:ac:bd:50:69 host=Pixel-9-977 from=COAT-CHECK to=AP-STAGE rssi=-46
+2026-10-31 20:14:00 wlc-01 dhcp lease ip=10.31.4.32 mac=96:e9:fe:3e:12:db host=Galaxy-S23-473
+2026-10-31 20:22:50 wlc-01 roam client=18:ad:cb:98:80:ff host=iPhone-82 from=COAT-CHECK to=MAIN-FLOOR rssi=-57
+2026-10-31 20:27:00 wlc-01 dhcp lease ip=10.31.4.26 mac=8c:68:24:0b:67:6d host=Galaxy-A55-868
+2026-10-31 20:32:07 wlc-01 roam client=6d:e8:bc:10:de:e6 host=iPhone-39 from=COAT-CHECK to=AP-BOOTH rssi=-51
+2026-10-31 20:35:53 wlc-01 roam client=18:ad:cb:98:80:ff host=iPhone-82 from=MAIN-FLOOR to=AP-BOOTH rssi=-42
+2026-10-31 20:40:25 wlc-01 roam client=9c:67:1e:1b:dd:5e host=Galaxy-S24-942 from=COAT-CHECK to=AP-STAGE rssi=-64
+2026-10-31 20:41:30 wlc-01 roam client=ed:aa:dc:3a:e1:42 host=iPhone-52 from=COAT-CHECK to=MAIN-FLOOR rssi=-53
+2026-10-31 20:42:00 wlc-01 dhcp lease ip=10.31.4.24 mac=83:ad:e7:4c:0f:80 host=Redmi-Note-13-634
+2026-10-31 20:43:26 wlc-01 roam client=cb:2b:ac:bd:50:69 host=Pixel-9-977 from=AP-STAGE to=COAT-CHECK rssi=-61
+2026-10-31 20:46:00 wlc-01 dhcp lease ip=10.31.4.36 mac=8b:b9:25:e0:6c:a5 host=iPhone-30
+2026-10-31 20:47:31 wlc-01 roam client=83:ad:e7:4c:0f:80 host=Redmi-Note-13-634 from=COAT-CHECK to=MAIN-FLOOR rssi=-63
+2026-10-31 20:53:00 wlc-01 dhcp lease ip=10.31.4.30 mac=eb:9f:e1:4a:86:59 host=Pixel-7a-176
+2026-10-31 20:57:36 wlc-01 roam client=6d:e8:bc:10:de:e6 host=iPhone-39 from=AP-BOOTH to=AP-STAGE rssi=-67
+2026-10-31 21:00:48 wlc-01 roam client=96:e9:fe:3e:12:db host=Galaxy-S23-473 from=COAT-CHECK to=AP-BOOTH rssi=-42
+2026-10-31 21:04:58 wlc-01 roam client=8c:68:24:0b:67:6d host=Galaxy-A55-868 from=COAT-CHECK to=AP-STAGE rssi=-64
+2026-10-31 21:05:04 wlc-01 roam client=9c:67:1e:1b:dd:5e host=Galaxy-S24-942 from=AP-STAGE to=COAT-CHECK rssi=-64
+2026-10-31 21:06:18 wlc-01 roam client=6d:e8:bc:10:de:e6 host=iPhone-39 from=AP-STAGE to=AP-BOOTH rssi=-63
+2026-10-31 21:06:57 wlc-01 roam client=83:ad:e7:4c:0f:80 host=Redmi-Note-13-634 from=MAIN-FLOOR to=AP-STAGE rssi=-57
+2026-10-31 21:09:18 wlc-01 roam client=ed:aa:dc:3a:e1:42 host=iPhone-52 from=MAIN-FLOOR to=AP-STAGE rssi=-41
+2026-10-31 21:12:44 wlc-01 dhcp lease ip=10.31.4.88 mac=3a:91:c2:7e:10:5f host=Salmas-iPhone
+2026-10-31 21:12:51 wlc-01 roam client=3a:91:c2:7e:10:5f host=Salmas-iPhone from=COAT-CHECK to=MAIN-FLOOR rssi=-47
+2026-10-31 21:13:00 wlc-01 dhcp lease ip=10.31.4.33 mac=2c:ef:da:58:0e:c8 host=iPhone-51
+2026-10-31 21:14:00 wlc-01 dhcp lease ip=10.31.4.22 mac=f7:5a:7c:cf:cf:47 host=Pixel-8-206
+2026-10-31 21:14:00 wlc-01 dhcp lease ip=10.31.4.34 mac=f9:84:fc:27:ec:7c host=iPad-768
+2026-10-31 21:16:01 wlc-01 roam client=ed:aa:dc:3a:e1:42 host=iPhone-52 from=AP-STAGE to=MAIN-FLOOR rssi=-66
+2026-10-31 21:20:19 wlc-01 roam client=cb:2b:ac:bd:50:69 host=Pixel-9-977 from=COAT-CHECK to=MAIN-FLOOR rssi=-54
+2026-10-31 21:24:37 wlc-01 roam client=f9:84:fc:27:ec:7c host=iPad-768 from=COAT-CHECK to=AP-BOOTH rssi=-67
+2026-10-31 21:25:44 wlc-01 roam client=8b:b9:25:e0:6c:a5 host=iPhone-30 from=COAT-CHECK to=AP-BOOTH rssi=-47
+2026-10-31 21:27:00 wlc-01 dhcp lease ip=10.31.4.23 mac=6f:68:50:ee:15:35 host=iPhone-30
+2026-10-31 21:27:42 wlc-01 roam client=ed:aa:dc:3a:e1:42 host=iPhone-52 from=MAIN-FLOOR to=AP-BOOTH rssi=-43
+2026-10-31 21:29:52 wlc-01 roam client=eb:9f:e1:4a:86:59 host=Pixel-7a-176 from=COAT-CHECK to=AP-STAGE rssi=-65
+2026-10-31 21:34:32 wlc-01 roam client=ed:aa:dc:3a:e1:42 host=iPhone-52 from=AP-BOOTH to=MAIN-FLOOR rssi=-58
+2026-10-31 21:34:57 wlc-01 roam client=f9:84:fc:27:ec:7c host=iPad-768 from=AP-BOOTH to=AP-STAGE rssi=-41
+2026-10-31 21:40:14 wlc-01 roam client=2c:ef:da:58:0e:c8 host=iPhone-51 from=COAT-CHECK to=AP-BOOTH rssi=-50
+2026-10-31 21:42:37 wlc-01 roam client=96:e9:fe:3e:12:db host=Galaxy-S23-473 from=AP-BOOTH to=MAIN-FLOOR rssi=-52
+2026-10-31 21:44:00 wlc-01 dhcp lease ip=10.31.4.21 mac=51:e3:02:d0:8a:91 host=iPhone-73
+2026-10-31 21:46:41 wlc-01 roam client=8b:b9:25:e0:6c:a5 host=iPhone-30 from=AP-BOOTH to=COAT-CHECK rssi=-57
+2026-10-31 21:48:09 wlc-01 roam client=8c:68:24:0b:67:6d host=Galaxy-A55-868 from=AP-STAGE to=AP-BOOTH rssi=-71
+2026-10-31 21:48:15 wlc-01 roam client=9c:67:1e:1b:dd:5e host=Galaxy-S24-942 from=COAT-CHECK to=MAIN-FLOOR rssi=-70
+2026-10-31 21:51:00 wlc-01 dhcp lease ip=10.31.4.39 mac=6f:79:9a:4e:b0:7e host=Galaxy-Z-Flip-281
+2026-10-31 21:51:21 wlc-01 roam client=f7:5a:7c:cf:cf:47 host=Pixel-8-206 from=COAT-CHECK to=AP-STAGE rssi=-63
+2026-10-31 21:51:23 wlc-01 roam client=83:ad:e7:4c:0f:80 host=Redmi-Note-13-634 from=AP-STAGE to=COAT-CHECK rssi=-44
+2026-10-31 21:51:25 wlc-01 roam client=2c:ef:da:58:0e:c8 host=iPhone-51 from=AP-BOOTH to=AP-STAGE rssi=-72
+2026-10-31 21:54:22 wlc-01 roam client=96:e9:fe:3e:12:db host=Galaxy-S23-473 from=MAIN-FLOOR to=COAT-CHECK rssi=-44
+2026-10-31 21:55:51 wlc-01 roam client=cb:2b:ac:bd:50:69 host=Pixel-9-977 from=MAIN-FLOOR to=AP-STAGE rssi=-63
+2026-10-31 21:59:00 wlc-01 dhcp lease ip=10.31.4.31 mac=54:89:1c:bb:e1:06 host=iPhone-64
+2026-10-31 22:01:54 wlc-01 roam client=51:e3:02:d0:8a:91 host=iPhone-73 from=COAT-CHECK to=AP-BOOTH rssi=-58
+2026-10-31 22:03:55 wlc-01 roam client=2c:ef:da:58:0e:c8 host=iPhone-51 from=AP-STAGE to=AP-BOOTH rssi=-68
+2026-10-31 22:04:00 wlc-01 dhcp lease ip=10.31.4.28 mac=cb:09:1e:07:cc:c4 host=OnePlus-12-395
+2026-10-31 22:11:23 wlc-01 roam client=6f:68:50:ee:15:35 host=iPhone-30 from=COAT-CHECK to=AP-STAGE rssi=-67
+2026-10-31 22:17:26 wlc-01 roam client=eb:9f:e1:4a:86:59 host=Pixel-7a-176 from=AP-STAGE to=COAT-CHECK rssi=-44
+2026-10-31 22:18:42 wlc-01 roam client=51:e3:02:d0:8a:91 host=iPhone-73 from=AP-BOOTH to=MAIN-FLOOR rssi=-47
+2026-10-31 22:21:33 wlc-01 roam client=54:89:1c:bb:e1:06 host=iPhone-64 from=COAT-CHECK to=AP-STAGE rssi=-60
+2026-10-31 22:23:07 wlc-01 roam client=f7:5a:7c:cf:cf:47 host=Pixel-8-206 from=AP-STAGE to=MAIN-FLOOR rssi=-46
+2026-10-31 22:25:00 wlc-01 dhcp lease ip=10.31.4.35 mac=bd:ed:54:ce:0b:21 host=Surface-Go-712
+2026-10-31 22:26:33 wlc-01 roam client=96:e9:fe:3e:12:db host=Galaxy-S23-473 from=COAT-CHECK to=AP-STAGE rssi=-45
+2026-10-31 22:28:17 wlc-01 roam client=6f:68:50:ee:15:35 host=iPhone-30 from=AP-STAGE to=COAT-CHECK rssi=-43
+2026-10-31 22:30:05 wlc-01 roam client=cb:09:1e:07:cc:c4 host=OnePlus-12-395 from=COAT-CHECK to=AP-STAGE rssi=-52
+2026-10-31 22:33:33 wlc-01 roam client=6f:79:9a:4e:b0:7e host=Galaxy-Z-Flip-281 from=COAT-CHECK to=MAIN-FLOOR rssi=-48
+2026-10-31 22:34:08 wlc-01 roam client=8c:68:24:0b:67:6d host=Galaxy-A55-868 from=AP-BOOTH to=AP-STAGE rssi=-71
+2026-10-31 22:34:52 wlc-01 roam client=51:e3:02:d0:8a:91 host=iPhone-73 from=MAIN-FLOOR to=AP-STAGE rssi=-63
+2026-10-31 22:37:49 wlc-01 roam client=54:89:1c:bb:e1:06 host=iPhone-64 from=AP-STAGE to=COAT-CHECK rssi=-64
+2026-10-31 22:39:08 wlc-01 roam client=bd:ed:54:ce:0b:21 host=Surface-Go-712 from=COAT-CHECK to=MAIN-FLOOR rssi=-46
+2026-10-31 22:39:12 wlc-01 roam client=cb:09:1e:07:cc:c4 host=OnePlus-12-395 from=AP-STAGE to=COAT-CHECK rssi=-65
+2026-10-31 22:48:00 wlc-01 dhcp lease ip=10.31.4.27 mac=ed:ed:69:66:9a:91 host=iPhone-50
+2026-10-31 23:00:41 wlc-01 roam client=f7:5a:7c:cf:cf:47 host=Pixel-8-206 from=MAIN-FLOOR to=COAT-CHECK rssi=-64
+2026-10-31 23:01:26 wlc-01 roam client=cb:09:1e:07:cc:c4 host=OnePlus-12-395 from=COAT-CHECK to=AP-BOOTH rssi=-61
+2026-10-31 23:02:16 wlc-01 roam client=6f:79:9a:4e:b0:7e host=Galaxy-Z-Flip-281 from=MAIN-FLOOR to=COAT-CHECK rssi=-47
+2026-10-31 23:09:16 wlc-01 roam client=54:89:1c:bb:e1:06 host=iPhone-64 from=COAT-CHECK to=AP-STAGE rssi=-55
+2026-10-31 23:09:57 wlc-01 roam client=f7:5a:7c:cf:cf:47 host=Pixel-8-206 from=COAT-CHECK to=AP-BOOTH rssi=-53
+2026-10-31 23:13:29 wlc-01 roam client=8c:68:24:0b:67:6d host=Galaxy-A55-868 from=AP-STAGE to=MAIN-FLOOR rssi=-54
+2026-10-31 23:18:32 wlc-01 roam client=6f:79:9a:4e:b0:7e host=Galaxy-Z-Flip-281 from=COAT-CHECK to=MAIN-FLOOR rssi=-42
+2026-10-31 23:19:36 wlc-01 roam client=54:89:1c:bb:e1:06 host=iPhone-64 from=AP-STAGE to=COAT-CHECK rssi=-41
+2026-10-31 23:21:30 wlc-01 roam client=52:7c:19:e3:08:a6 host=Nadias-iPhone from=BACKSTAGE to=MAIN-FLOOR rssi=-48
+2026-10-31 23:24:05 wlc-01 roam client=bd:ed:54:ce:0b:21 host=Surface-Go-712 from=MAIN-FLOOR to=COAT-CHECK rssi=-64
+2026-10-31 23:24:18 wlc-01 roam client=6e:02:aa:91:4c:1b host=Yasmines-iPhone from=AP-STAGE to=BACKSTAGE rssi=-47
+2026-10-31 23:28:08 wlc-01 roam client=f7:5a:7c:cf:cf:47 host=Pixel-8-206 from=AP-BOOTH to=MAIN-FLOOR rssi=-47
+2026-10-31 23:36:35 wlc-01 roam client=ed:ed:69:66:9a:91 host=iPhone-50 from=COAT-CHECK to=MAIN-FLOOR rssi=-59
+2026-10-31 23:46:43 wlc-01 roam client=cb:09:1e:07:cc:c4 host=OnePlus-12-395 from=AP-BOOTH to=MAIN-FLOOR rssi=-54
+2026-10-31 23:47:52 wlc-01 roam client=6e:02:aa:91:4c:1b host=Yasmines-iPhone from=BACKSTAGE to=AP-2F-CORRIDOR rssi=-53
+2026-10-31 23:49:40 wlc-01 roam client=52:7c:19:e3:08:a6 host=Nadias-iPhone from=MAIN-FLOOR to=AP-2F-CORRIDOR rssi=-68
+2026-10-31 23:49:58 wlc-01 roam client=3a:91:c2:7e:10:5f host=Salmas-iPhone from=MAIN-FLOOR to=AP-BOOTH rssi=-67
+2026-10-31 23:53:30 wlc-01 roam client=ed:ed:69:66:9a:91 host=iPhone-50 from=MAIN-FLOOR to=AP-BOOTH rssi=-71
+2026-10-31 23:55:40 wlc-01 roam client=3a:91:c2:7e:10:5f host=Salmas-iPhone from=AP-BOOTH to=MAIN-FLOOR rssi=-54
+2026-10-31 23:56:31 wlc-01 roam client=6e:02:aa:91:4c:1b host=Yasmines-iPhone from=AP-2F-CORRIDOR to=MAIN-FLOOR rssi=-43
+2026-11-01 00:08:34 wlc-01 roam client=f7:5a:7c:cf:cf:47 host=Pixel-8-206 from=MAIN-FLOOR to=COAT-CHECK rssi=-65

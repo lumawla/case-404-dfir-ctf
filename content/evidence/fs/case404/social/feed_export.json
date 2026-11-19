@@ -1,0 +1,14 @@
+{
+  "service": "MASKED Social",
+  "export": "public feed #BlackthornMasquerade, as displayed to guests",
+  "exported_at": "2026-11-01T00:30:41+02:00",
+  "posts": [
+    { "id": "msp-oct31-0311", "account": "@omar.pumpkinking", "posted": "2026-10-31 22:12", "text": "Photo booth strip #1. The Pumpkin King has arrived.", "media": null },
+    { "id": "msp-oct31-0349", "account": "@ziad.photo", "posted": "2026-10-31 22:35", "text": "Official photos from tonight coming tomorrow. My camera has opinions about one guest.", "media": null },
+    { "id": "msp-oct31-0357", "account": "@lea.bones", "posted": "2026-10-31 22:47", "text": "Took a pic with the vampire guy and he's... not in it?? the camera's haunted", "media": null },
+    { "id": "msp-oct31-0402", "account": "@blackthornhalloween", "posted": "2026-10-31 23:05", "text": "Charity total just passed $9,000 for the children's ward! Thank you Blackthorn!", "media": null },
+    { "id": "msp-oct31-0429", "account": "@hiba.medusa", "posted": "2026-10-31 23:48", "text": "Livestream just died? Anyone else?", "media": null },
+    { "id": "msp-oct31-0442", "account": "@yasmine.angel", "posted": "2026-10-31 23:53", "text": "Wings on, mic on. Thank you for the most generous night of the year!", "media": "cdn/msp-oct31-0442_1080.jpg" },
+    { "id": "msp-oct31-0450", "account": "@dana.banshee", "posted": "2026-11-01 00:04", "text": "Why did the music just stop??", "media": null }
+  ]
+}

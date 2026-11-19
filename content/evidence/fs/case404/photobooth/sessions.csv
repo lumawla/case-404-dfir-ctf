@@ -1,0 +1,72 @@
+session_id,checkin_time,wristband,participant_name
+S01,20:31,G28,Tony Feghali
+S01,20:31,G30,Ghassan Tabet
+S02,20:38,G33,Walid Hobeika
+S02,20:38,G43,Michel Rahme
+S02,20:38,G27,Rania Ezzeddine
+S02,20:38,G05,Rami Fares
+S03,20:45,G33,Walid Hobeika
+S03,20:45,G05,Rami Fares
+S03,20:45,G16,Sara Mouawad
+S04,20:52,G30,Ghassan Tabet
+S04,20:52,G05,Rami Fares
+S05,20:57,G27,Rania Ezzeddine
+S05,20:57,G11,Omar Khalil
+S06,21:04,G11,Omar Khalil
+S06,21:04,G30,Ghassan Tabet
+S06,21:04,G24,Lara Nehme
+S06,21:04,G05,Rami Fares
+S07,21:13,G22,Mona Halabi
+S07,21:13,G23,Charbel Daou
+S07,21:13,G16,Sara Mouawad
+S07,21:13,G05,Rami Fares
+S08,21:21,G22,Mona Halabi
+S08,21:21,G46,Tala Mikati
+S09,21:27,G19,Rita Saliba
+S10,21:34,G19,Rita Saliba
+S10,21:34,G09,Georges Abi Nader
+S11,21:43,G23,Charbel Daou
+S11,21:43,G33,Walid Hobeika
+S12,21:51,G23,Charbel Daou
+S12,21:51,G19,Rita Saliba
+S13,21:59,G06,Nour Abboud
+S13,21:59,G07,Elie Daher
+S13,21:59,G44,Leila Barakat
+S13,21:59,G46,Tala Mikati
+S14,22:09,G22,Mona Halabi
+S14,22:09,G33,Walid Hobeika
+S14,22:09,G26,Kevin Abou Jaoude
+S15,22:17,G35,Antoine Bitar
+S16,22:25,G05,Rami Fares
+S16,22:25,G02,Jad Saleh
+S16,22:25,G12,Fadi Rizkallah
+S16,22:25,G42,Joanna Freiha
+S17,22:32,G26,Kevin Abou Jaoude
+S17,22:32,G42,Joanna Freiha
+S17,22:32,G03,Maya Khoury
+S17,22:32,G44,Leila Barakat
+S18,22:39,G26,Kevin Abou Jaoude
+S18,22:39,G39,Patrick Nassif
+S19,22:45,G21,Elias Moussa
+S19,22:45,G35,Antoine Bitar
+S20,22:51,G18,Hassan Jaber
+S20,22:51,G36,Carla Khalife
+S21,22:59,G30,Ghassan Tabet
+S21,22:59,G22,Mona Halabi
+S22,23:05,G06,Nour Abboud
+S22,23:05,G40,Hala Ghosn
+S22,23:05,G08,Lea Karam
+S22,23:05,G09,Georges Abi Nader
+S23,23:11,G43,Michel Rahme
+S23,23:11,G20,Karen Chidiac
+S24,23:21,G02,Jad Saleh
+S24,23:21,G05,Rami Fares
+S25,23:30,G28,Tony Feghali
+S25,23:30,G24,Lara Nehme
+S25,23:30,G33,Walid Hobeika
+S26,23:37,G05,Rami Fares
+S26,23:37,G24,Lara Nehme
+S27,23:51,L07,Lucien Moreau
+S27,23:51,S02,Salma Nasser
+S28,23:58,G11,Omar Khalil
+S29,00:04,G31,Dana Rizk

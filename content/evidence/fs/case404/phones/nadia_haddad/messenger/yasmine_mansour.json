@@ -1,0 +1,14 @@
+{
+  "app": "MASKED Messenger",
+  "device": "Nadia Haddad - iPhone (extraction DER-404-P1)",
+  "participants": ["NADIA", "YASMINE"],
+  "messages": [
+    { "id": "ym-1102", "time": "2026-10-23 21:12", "from": "NADIA", "text": "Quick one: why does Black Cat AV show up twice this month?" },
+    { "id": "ym-1103", "time": "2026-10-23 21:30", "from": "YASMINE", "text": "Bank retry, I think. I'll sort it." },
+    { "id": "ym-1180", "time": "2026-10-30 22:14", "from": "NADIA", "text": "It's not a retry. Can you send me the Black Cat paperwork?" },
+    { "id": "ym-1181", "time": "2026-10-30 22:31", "from": "YASMINE", "text": "After Halloween. It's all on the dashboard." },
+    { "id": "ym-1196", "time": "2026-10-31 21:03", "from": "NADIA", "text": "The dashboard and last night's backup don't match anymore." },
+    { "id": "ym-1197", "time": "2026-10-31 21:05", "from": "YASMINE", "text": "Let's not do this tonight. Enjoy the party." },
+    { "id": "ym-1203", "time": "2026-10-31 23:58", "from": "YASMINE", "text": "Where are you?? Everyone's looking for you" }
+  ]
+}

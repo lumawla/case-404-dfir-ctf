@@ -1,0 +1,21 @@
+{
+  "name": "@case404/api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch --clear-screen=false src/server.ts",
+    "build": "node build.mjs",
+    "start": "node --disable-warning=ExperimentalWarning dist/server.js"
+  },
+  "dependencies": {
+    "@case404/shared": "*",
+    "@fastify/cookie": "^11.0.2",
+    "@fastify/static": "^10.1.6",
+    "fastify": "^5.6.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "tsx": "^4.20.0"
+  }
+}

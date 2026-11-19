@@ -1,0 +1,522 @@
+{
+  "title": "Blackthorn Hall - event floor plan (schematic, not to scale)",
+  "note": "Fictional venue for CASE 404. Walking times are minimums at a fast pace using normal routes. The west stairs and the balcony were closed for the event; the north gate was the only public exterior exit (other exits alarmed).",
+  "floors": [
+    {
+      "id": "ground",
+      "label": "Ground floor",
+      "frame": {
+        "x": 20,
+        "y": 56,
+        "w": 500,
+        "h": 440
+      },
+      "rooms": [
+        {
+          "id": "gate",
+          "label": "North gate",
+          "sub": "only public exit",
+          "x": 40,
+          "y": 76,
+          "w": 140,
+          "h": 52,
+          "description": "The only public exterior exit during the event. Campus camera GATE-N records everyone passing through."
+        },
+        {
+          "id": "coat",
+          "label": "Coat check",
+          "sub": "",
+          "x": 190,
+          "y": 76,
+          "w": 140,
+          "h": 52,
+          "description": "Coat check and registration desk. Wristbands and staff badges were issued here."
+        },
+        {
+          "id": "main",
+          "label": "Main party floor",
+          "sub": "",
+          "x": 40,
+          "y": 138,
+          "w": 290,
+          "h": 202,
+          "description": "The dance floor and charity tables. Connects to the north gate, photo booth, stage, DJ/AV station and the backstage corridor door."
+        },
+        {
+          "id": "booth",
+          "label": "Photo booth",
+          "sub": "MASKED PB-2",
+          "x": 340,
+          "y": 138,
+          "w": 160,
+          "h": 84,
+          "description": "MASKED PhotoBooth PB-2. Guests scan wristbands to open a session; a 10-second countdown precedes each photo."
+        },
+        {
+          "id": "stage",
+          "label": "Stage",
+          "sub": "",
+          "x": 40,
+          "y": 350,
+          "w": 190,
+          "h": 126,
+          "description": "Performance stage. Opens onto the main floor; a side door connects it to the DJ/AV station."
+        },
+        {
+          "id": "dj",
+          "label": "DJ / AV station",
+          "sub": "NVR-8 CAM-01",
+          "x": 240,
+          "y": 350,
+          "w": 90,
+          "h": 126,
+          "description": "Mixing console, livestream encoder and the local CCTV recorder (NVR-8). The recorder and the livestream are separate systems."
+        },
+        {
+          "id": "backstage",
+          "label": "Backstage",
+          "sub": "corridor",
+          "x": 340,
+          "y": 232,
+          "w": 70,
+          "h": 244,
+          "description": "Service corridor reached through a door from the main floor. Leads to the east stairwell."
+        },
+        {
+          "id": "stairsG",
+          "label": "East stairs",
+          "sub": "",
+          "x": 420,
+          "y": 396,
+          "w": 80,
+          "h": 80,
+          "description": "The only open staircase to the second floor during the event."
+        }
+      ],
+      "doors": [
+        {
+          "x": 110,
+          "y": 133
+        },
+        {
+          "x": 335,
+          "y": 180
+        },
+        {
+          "x": 135,
+          "y": 345
+        },
+        {
+          "x": 285,
+          "y": 345
+        },
+        {
+          "x": 335,
+          "y": 300
+        },
+        {
+          "x": 235,
+          "y": 420
+        },
+        {
+          "x": 415,
+          "y": 436
+        }
+      ]
+    },
+    {
+      "id": "second",
+      "label": "Second floor",
+      "frame": {
+        "x": 540,
+        "y": 56,
+        "w": 480,
+        "h": 440
+      },
+      "rooms": [
+        {
+          "id": "balcony",
+          "label": "Balcony",
+          "sub": "closed for the event",
+          "x": 560,
+          "y": 76,
+          "w": 440,
+          "h": 104,
+          "description": "Overlooks the main floor. Closed and taped off for the event."
+        },
+        {
+          "id": "projection",
+          "label": "Projection room",
+          "sub": "door reader PROJ-EAST",
+          "x": 560,
+          "y": 190,
+          "w": 210,
+          "h": 190,
+          "description": "Staff-badge-controlled room with projectors and the brass prize trophies. The PROJ-EAST reader logs every badge entry and exit to an append-only mirror."
+        },
+        {
+          "id": "storage",
+          "label": "AV storage",
+          "sub": "locked",
+          "x": 780,
+          "y": 190,
+          "w": 130,
+          "h": 190,
+          "description": "Locked AV equipment storage. No access events that night."
+        },
+        {
+          "id": "corridor2",
+          "label": "Second-floor corridor",
+          "sub": "CAM-03",
+          "x": 560,
+          "y": 390,
+          "w": 350,
+          "h": 86,
+          "description": "Corridor outside the projection room, covered by local camera CAM-03 (recorded on NVR-8)."
+        },
+        {
+          "id": "stairs2",
+          "label": "East stairs",
+          "sub": "",
+          "x": 920,
+          "y": 396,
+          "w": 80,
+          "h": 80,
+          "description": "Top of the east staircase."
+        }
+      ],
+      "doors": [
+        {
+          "x": 665,
+          "y": 385
+        },
+        {
+          "x": 915,
+          "y": 436
+        }
+      ]
+    }
+  ],
+  "offsite": {
+    "id": "kiosk",
+    "label": "Moonrise 24/7 Kiosk (off campus)",
+    "description": "Cedar Street kiosk, about 650 m from the north gate - about 8 minutes on foot."
+  },
+  "routes": [
+    {
+      "id": "booth-projection",
+      "from": "booth",
+      "to": "projection",
+      "minutes": 4,
+      "path": "Photo booth, main floor, backstage corridor, east stairs, second-floor corridor, projection room",
+      "segments": [
+        [
+          [
+            420,
+            180
+          ],
+          [
+            335,
+            180
+          ],
+          [
+            310,
+            180
+          ],
+          [
+            310,
+            300
+          ],
+          [
+            335,
+            300
+          ],
+          [
+            375,
+            300
+          ],
+          [
+            375,
+            436
+          ],
+          [
+            415,
+            436
+          ],
+          [
+            460,
+            436
+          ]
+        ],
+        [
+          [
+            960,
+            436
+          ],
+          [
+            915,
+            436
+          ],
+          [
+            665,
+            436
+          ],
+          [
+            665,
+            385
+          ],
+          [
+            665,
+            290
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "dj-projection",
+      "from": "dj",
+      "to": "projection",
+      "minutes": 4,
+      "path": "DJ/AV station, main floor, backstage corridor, east stairs, second-floor corridor, projection room",
+      "segments": [
+        [
+          [
+            285,
+            410
+          ],
+          [
+            285,
+            345
+          ],
+          [
+            285,
+            320
+          ],
+          [
+            310,
+            300
+          ],
+          [
+            335,
+            300
+          ],
+          [
+            375,
+            300
+          ],
+          [
+            375,
+            436
+          ],
+          [
+            415,
+            436
+          ],
+          [
+            460,
+            436
+          ]
+        ],
+        [
+          [
+            960,
+            436
+          ],
+          [
+            915,
+            436
+          ],
+          [
+            665,
+            436
+          ],
+          [
+            665,
+            385
+          ],
+          [
+            665,
+            290
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "stage-projection",
+      "from": "stage",
+      "to": "projection",
+      "minutes": 3,
+      "path": "Stage, main floor, backstage corridor, east stairs, second-floor corridor, projection room",
+      "segments": [
+        [
+          [
+            135,
+            410
+          ],
+          [
+            135,
+            345
+          ],
+          [
+            200,
+            300
+          ],
+          [
+            310,
+            300
+          ],
+          [
+            335,
+            300
+          ],
+          [
+            375,
+            300
+          ],
+          [
+            375,
+            436
+          ],
+          [
+            415,
+            436
+          ],
+          [
+            460,
+            436
+          ]
+        ],
+        [
+          [
+            960,
+            436
+          ],
+          [
+            915,
+            436
+          ],
+          [
+            665,
+            436
+          ],
+          [
+            665,
+            385
+          ],
+          [
+            665,
+            290
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gate-projection",
+      "from": "gate",
+      "to": "projection",
+      "minutes": 3,
+      "path": "North gate, main floor, backstage corridor, east stairs, second-floor corridor, projection room",
+      "segments": [
+        [
+          [
+            110,
+            100
+          ],
+          [
+            110,
+            133
+          ],
+          [
+            110,
+            240
+          ],
+          [
+            310,
+            300
+          ],
+          [
+            335,
+            300
+          ],
+          [
+            375,
+            300
+          ],
+          [
+            375,
+            436
+          ],
+          [
+            415,
+            436
+          ],
+          [
+            460,
+            436
+          ]
+        ],
+        [
+          [
+            960,
+            436
+          ],
+          [
+            915,
+            436
+          ],
+          [
+            665,
+            436
+          ],
+          [
+            665,
+            385
+          ],
+          [
+            665,
+            290
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "booth-stage",
+      "from": "booth",
+      "to": "stage",
+      "minutes": 1,
+      "path": "Photo booth, main floor, stage",
+      "segments": [
+        [
+          [
+            420,
+            180
+          ],
+          [
+            335,
+            180
+          ],
+          [
+            200,
+            240
+          ],
+          [
+            135,
+            345
+          ],
+          [
+            135,
+            410
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gate-kiosk",
+      "from": "gate",
+      "to": "kiosk",
+      "minutes": 8,
+      "path": "North gate, Cedar Street, Moonrise 24/7 Kiosk (off campus)",
+      "segments": []
+    }
+  ]
+}

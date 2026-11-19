@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 850" width="1040" height="850" role="img" aria-labelledby="t d">
+<title id="t">Blackthorn Hall - event floor plan (schematic, not to scale)</title>
+<desc id="d">Fictional venue for CASE 404. Walking times are minimums at a fast pace using normal routes. The west stairs and the balcony were closed for the event; the north gate was the only public exterior exit (other exits alarmed). Photo booth, main floor, backstage corridor, east stairs, second-floor corridor, projection room: at least 4 minutes. DJ/AV station, main floor, backstage corridor, east stairs, second-floor corridor, projection room: at least 4 minutes. Stage, main floor, backstage corridor, east stairs, second-floor corridor, projection room: at least 3 minutes. North gate, main floor, backstage corridor, east stairs, second-floor corridor, projection room: at least 3 minutes. Photo booth, main floor, stage: at least 1 minutes. North gate, Cedar Street, Moonrise 24/7 Kiosk (off campus): at least 8 minutes.</desc>
+<rect width="1040" height="850" fill="#0f0d14"/>
+<text x="20" y="30" font-family="Georgia, serif" font-size="22" fill="#F4EBDD">Blackthorn Hall - event floor plan (schematic, not to scale)</text>
+<g transform="translate(0 30)">
+
+    <g>
+      <rect x="20" y="56" width="500" height="440" rx="8" fill="#15131B" stroke="#554668" stroke-width="2"/>
+      <text x="32" y="44" font-family="Georgia, serif" font-size="20" fill="#C6A36A">Ground floor</text>
+      
+      <g>
+        <rect x="40" y="76" width="140" height="52" rx="4" fill="#211d2a" stroke="#C6A36A" stroke-width="1.5"/>
+        <text x="110" y="98" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#F7F3EE">North gate</text>
+        <text x="110" y="116" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#c9bfd6">only public exit</text>
+      </g>
+      <g>
+        <rect x="190" y="76" width="140" height="52" rx="4" fill="#211d2a" stroke="#C6A36A" stroke-width="1.5"/>
+        <text x="260" y="107" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#F7F3EE">Coat check</text>
+        
+      </g>
+      <g>
+        <rect x="40" y="138" width="290" height="202" rx="4" fill="#211d2a" stroke="#C6A36A" stroke-width="1.5"/>
+        <text x="185" y="244" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#F7F3EE">Main party floor</text>
+        
+      </g>
+      <g>
+        <rect x="340" y="138" width="160" height="84" rx="4" fill="#211d2a" stroke="#C6A36A" stroke-width="1.5"/>
+        <text x="420" y="176" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#F7F3EE">Photo booth</text>
+        <text x="420" y="194" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#c9bfd6">MASKED PB-2</text>
+      </g>
+      <g>
+        <rect x="40" y="350" width="190" height="126" rx="4" fill="#211d2a" stroke="#C6A36A" stroke-width="1.5"/>
+        <text x="135" y="418" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#F7F3EE">Stage</text>
+        
+      </g>
+      <g>
+        <rect x="240" y="350" width="90" height="126" rx="4" fill="#211d2a" stroke="#C6A36A" stroke-width="1.5"/>
+        <text x="285" y="409" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#F7F3EE">DJ / AV station</text>
+        <text x="285" y="427" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#c9bfd6">NVR-8 CAM-01</text>
+      </g>
+      <g>
+        <rect x="340" y="232" width="70" height="244" rx="4" fill="#211d2a" stroke="#C6A36A" stroke-width="1.5"/>
+        <text x="375" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#F7F3EE">Backstage</text>
+        <text x="375" y="368" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#c9bfd6">corridor</text>
+      </g>
+      <g>
+        <rect x="420" y="396" width="80" height="80" rx="4" fill="#211d2a" stroke="#C6A36A" stroke-width="1.5"/>
+        <text x="460" y="441" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#F7F3EE">East stairs</text>
+        
+      </g>
+      <circle cx="110" cy="133" r="5" fill="#C6A36A"/><circle cx="335" cy="180" r="5" fill="#C6A36A"/><circle cx="135" cy="345" r="5" fill="#C6A36A"/><circle cx="285" cy="345" r="5" fill="#C6A36A"/><circle cx="335" cy="300" r="5" fill="#C6A36A"/><circle cx="235" cy="420" r="5" fill="#C6A36A"/><circle cx="415" cy="436" r="5" fill="#C6A36A"/>
+    </g>
+    <g>
+      <rect x="540" y="56" width="480" height="440" rx="8" fill="#15131B" stroke="#554668" stroke-width="2"/>
+      <text x="552" y="44" font-family="Georgia, serif" font-size="20" fill="#C6A36A">Second floor</text>
+      
+      <g>
+        <rect x="560" y="76" width="440" height="104" rx="4" fill="#211d2a" stroke="#C6A36A" stroke-width="1.5"/>
+        <text x="780" y="124" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#F7F3EE">Balcony</text>
+        <text x="780" y="142" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#c9bfd6">closed for the event</text>
+      </g>
+      <g>
+        <rect x="560" y="190" width="210" height="190" rx="4" fill="#3a2230" stroke="#C6A36A" stroke-width="1.5"/>
+        <text x="665" y="281" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#F7F3EE">Projection room</text>
+        <text x="665" y="299" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#c9bfd6">door reader PROJ-EAST</text>
+      </g>
+      <g>
+        <rect x="780" y="190" width="130" height="190" rx="4" fill="#211d2a" stroke="#C6A36A" stroke-width="1.5"/>
+        <text x="845" y="281" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#F7F3EE">AV storage</text>
+        <text x="845" y="299" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#c9bfd6">locked</text>
+      </g>
+      <g>
+        <rect x="560" y="390" width="350" height="86" rx="4" fill="#211d2a" stroke="#C6A36A" stroke-width="1.5"/>
+        <text x="735" y="429" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#F7F3EE">Second-floor corridor</text>
+        <text x="735" y="447" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#c9bfd6">CAM-03</text>
+      </g>
+      <g>
+        <rect x="920" y="396" width="80" height="80" rx="4" fill="#211d2a" stroke="#C6A36A" stroke-width="1.5"/>
+        <text x="960" y="441" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#F7F3EE">East stairs</text>
+        
+      </g>
+      <circle cx="665" cy="385" r="5" fill="#C6A36A"/><circle cx="915" cy="436" r="5" fill="#C6A36A"/>
+    </g>
+<path d="M460 436 C500 520 920 520 960 436" stroke="#C6A36A" stroke-width="2" stroke-dasharray="6 6" fill="none"/>
+<text x="710" y="522" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#c9bfd6">east stairs connect the two floors</text>
+<text x="20" y="535" font-family="Georgia, serif" font-size="18" fill="#C6A36A">Minimum walking times (fast pace, normal routes)</text>
+<text x="40" y="560" font-family="Arial, sans-serif" font-size="15" fill="#F7F3EE"><tspan font-weight="700">4 min</tspan>  Photo booth, main floor, backstage corridor, east stairs, second-floor corridor, projection room</text><text x="40" y="586" font-family="Arial, sans-serif" font-size="15" fill="#F7F3EE"><tspan font-weight="700">4 min</tspan>  DJ/AV station, main floor, backstage corridor, east stairs, second-floor corridor, projection room</text><text x="40" y="612" font-family="Arial, sans-serif" font-size="15" fill="#F7F3EE"><tspan font-weight="700">3 min</tspan>  Stage, main floor, backstage corridor, east stairs, second-floor corridor, projection room</text><text x="40" y="638" font-family="Arial, sans-serif" font-size="15" fill="#F7F3EE"><tspan font-weight="700">3 min</tspan>  North gate, main floor, backstage corridor, east stairs, second-floor corridor, projection room</text><text x="40" y="664" font-family="Arial, sans-serif" font-size="15" fill="#F7F3EE"><tspan font-weight="700">1 min</tspan>  Photo booth, main floor, stage</text><text x="40" y="690" font-family="Arial, sans-serif" font-size="15" fill="#F7F3EE"><tspan font-weight="700">8 min</tspan>  North gate, Cedar Street, Moonrise 24/7 Kiosk (off campus)</text>
+</g>
+<text x="20" y="770" font-family="Arial, sans-serif" font-size="13" fill="#a79fb3">Fictional venue for CASE 404.</text><text x="20" y="790" font-family="Arial, sans-serif" font-size="13" fill="#a79fb3">Walking times are minimums at a fast pace using normal routes.</text><text x="20" y="810" font-family="Arial, sans-serif" font-size="13" fill="#a79fb3">The west stairs and the balcony were closed for the event; the north gate was the only public exterior exit (other exits alarmed).</text>
+</svg>

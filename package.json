@@ -1,0 +1,40 @@
+{
+  "name": "case-404",
+  "private": true,
+  "version": "1.0.0",
+  "description": "CASE 404 — The Last Photograph: a browser-based Halloween digital-forensics murder-mystery CTF.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "dev:api": "npm run dev -w @case404/api",
+    "dev:web": "npm run dev -w @case404/web",
+    "build": "node scripts/build-release.mjs",
+    "start": "npm run start -w @case404/api",
+    "typecheck": "tsc -p packages/shared --noEmit && tsc -p apps/api --noEmit && tsc -p apps/web --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "evidence": "node scripts/build-evidence.mjs",
+    "photos": "python3 scripts/build-photos.py",
+    "assets": "node scripts/generate-assets.mjs",
+    "verify:content": "vitest run tests/unit/content.test.ts",
+    "check:bundle": "node scripts/check-bundle.mjs",
+    "host": "node scripts/host.mjs",
+    "test:load": "node scripts/load-browsers.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^22.10.0",
+    "jsdom": "^29.1.1",
+    "playwright-core": "^1.57.0",
+    "typescript": "~5.9.3",
+    "vitest": "^4.0.0"
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "$comment": "Every file under fs/ needs an entry. 'modified' is the in-world time ls -l shows. 'unlock' is when the file appears: act1 (at Begin), act2, act3, or solved:<challenge>. 'text' is the pdftotext output for documents.",
+  "root": "case404",
+  "files": {
+    "access_control/README.txt": {
+      "modified": "2026-10-02T09:00:00+02:00",
+      "unlock": "act2"
+    },
+    "access_control/badges.csv": {
+      "modified": "2026-11-01T00:26:33+02:00",
+      "unlock": "act2"
+    },
+    "access_control/exports/ACS-EXP-7731.csv": {
+      "modified": "2026-11-01T00:00:21+02:00",
+      "unlock": "act2"
+    },
+    "access_control/exports/ACS-EXP-7734.csv": {
+      "modified": "2026-11-01T00:01:03+02:00",
+      "unlock": "act2"
+    },
+    "campus_security/GATE-N_index.csv": {
+      "modified": "2026-11-01T00:40:08+02:00",
+      "unlock": "act2"
+    },
+    "campus_security/moonrise_kiosk.txt": {
+      "modified": "2026-11-01T01:05:30+02:00",
+      "unlock": "act2"
+    },
+    "cctv/nvr8/CAM-01_dj_station.csv": {
+      "modified": "2026-11-01T01:12:15+02:00",
+      "unlock": "act3"
+    },
+    "cctv/nvr8/CAM-03_20261031_234807.jpg": {
+      "modified": "2026-11-01T01:12:15+02:00",
+      "unlock": "act3"
+    },
+    "finance/.backup/ledger_2026-10-30.csv": {
+      "modified": "2026-10-30T23:59:58+02:00",
+      "unlock": "act3"
+    },
+    "finance/expenses_export.csv": {
+      "modified": "2026-10-31T19:12:44+02:00",
+      "unlock": "act3"
+    },
+    "finance/invoices/BC-104.pdf": {
+      "modified": "2026-10-31T10:05:00+02:00",
+      "unlock": "act3",
+      "text": "sources/BC-104.txt"
+    },
+    "finance/reimbursements/STAFF-2026-18.txt": {
+      "modified": "2026-10-14T10:20:00+02:00",
+      "unlock": "act3"
+    },
+    "incident_report.txt": {
+      "modified": "2026-11-01T00:09:00+02:00",
+      "unlock": "act1"
+    },
+    "intake/manifest.json": {
+      "modified": "2026-11-01T00:58:30+02:00",
+      "unlock": "act2"
+    },
+    "intake/manifest_2.json": {
+      "modified": "2026-11-01T02:20:00+02:00",
+      "unlock": "act3"
+    },
+    "interviews/exhibits/salma_booth_print.jpg": {
+      "modified": "2026-11-01T00:39:30+02:00",
+      "unlock": "act1"
+    },
+    "interviews/karim_darwish.txt": {
+      "modified": "2026-11-01T01:04:51+02:00",
+      "unlock": "act1"
+    },
+    "interviews/lucien_moreau.txt": {
+      "modified": "2026-11-01T00:36:42+02:00",
+      "unlock": "act1"
+    },
+    "interviews/lucien_moreau_2.txt": {
+      "modified": "2026-11-01T01:38:12+02:00",
+      "unlock": "solved:EV03"
+    },
+    "interviews/salma_nasser.txt": {
+      "modified": "2026-11-01T00:39:05+02:00",
+      "unlock": "act1"
+    },
+    "interviews/salma_nasser_2.txt": {
+      "modified": "2026-11-01T02:44:50+02:00",
+      "unlock": "solved:EV06"
+    },
+    "interviews/tara_rahal.txt": {
+      "modified": "2026-11-01T00:43:18+02:00",
+      "unlock": "act1"
+    },
+    "interviews/yasmine_mansour.txt": {
+      "modified": "2026-11-01T00:33:10+02:00",
+      "unlock": "act1"
+    },
+    "logs/encoder_diagnostics.log": {
+      "modified": "2026-10-31T23:59:10+02:00",
+      "unlock": "act1"
+    },
+    "logs/maskmail_auth.log": {
+      "modified": "2026-11-01T00:58:02+02:00",
+      "unlock": "act3"
+    },
+    "logs/staff_dashboard_audit.csv": {
+      "modified": "2026-11-01T01:20:40+02:00",
+      "unlock": "act3"
+    },
+    "maskmail/archive_export.txt": {
+      "modified": "2026-11-01T00:44:10+02:00",
+      "unlock": "act1"
+    },
+    "network/wifi.log": {
+      "modified": "2026-11-01T01:05:00+02:00",
+      "unlock": "act3"
+    },
+    "phones/nadia_haddad/extraction_report.txt": {
+      "modified": "2026-11-01T00:47:00+02:00",
+      "unlock": "act2"
+    },
+    "phones/nadia_haddad/mail/outbox.json": {
+      "modified": "2026-11-01T01:40:00+02:00",
+      "unlock": "act3"
+    },
+    "phones/nadia_haddad/media_log.csv": {
+      "modified": "2026-11-01T00:47:20+02:00",
+      "unlock": "act2"
+    },
+    "phones/nadia_haddad/messenger/committee.json": {
+      "modified": "2026-11-01T00:47:20+02:00",
+      "unlock": "act2"
+    },
+    "phones/nadia_haddad/messenger/karim_darwish.json": {
+      "modified": "2026-11-01T00:47:20+02:00",
+      "unlock": "act2"
+    },
+    "phones/nadia_haddad/messenger/lucien_moreau.json": {
+      "modified": "2026-11-01T00:47:20+02:00",
+      "unlock": "act2"
+    },
+    "phones/nadia_haddad/messenger/mama.json": {
+      "modified": "2026-11-01T00:47:20+02:00",
+      "unlock": "act2"
+    },
+    "phones/nadia_haddad/messenger/yasmine_mansour.json": {
+      "modified": "2026-11-01T00:47:20+02:00",
+      "unlock": "act2"
+    },
+    "phones/salma_nasser/extraction_report.txt": {
+      "modified": "2026-11-01T02:10:00+02:00",
+      "unlock": "act3"
+    },
+    "phones/salma_nasser/media_log.csv": {
+      "modified": "2026-11-01T02:10:00+02:00",
+      "unlock": "act3"
+    },
+    "phones/salma_nasser/sms.db": {
+      "modified": "2026-11-01T00:12:04+02:00",
+      "unlock": "act3"
+    },
+    "photobooth/DCIM/PB2_0027.jpg": {
+      "modified": "2026-10-31T23:52:00+02:00",
+      "unlock": "act2"
+    },
+    "photobooth/device.log": {
+      "modified": "2026-11-01T00:29:40+02:00",
+      "unlock": "act2"
+    },
+    "photobooth/sessions.csv": {
+      "modified": "2026-11-01T00:29:40+02:00",
+      "unlock": "act2"
+    },
+    "social/audit/msp-oct31-0442.json": {
+      "modified": "2026-11-01T01:30:12+02:00",
+      "unlock": "act3"
+    },
+    "social/cdn/msp-oct31-0442_1080.jpg": {
+      "modified": "2026-10-31T23:53:00+02:00",
+      "unlock": "act1"
+    },
+    "social/feed_export.json": {
+      "modified": "2026-11-01T00:30:41+02:00",
+      "unlock": "act1"
+    },
+    "social/originals/IMG_4471.jpg": {
+      "modified": "2026-10-31T23:30:41+02:00",
+      "unlock": "act3"
+    },
+    "staff_channel/attachments/door_log.csv": {
+      "modified": "2026-11-01T00:03:40+02:00",
+      "unlock": "act1"
+    },
+    "staff_channel/attachments/fwd_0003.png": {
+      "modified": "2026-11-01T00:03:40+02:00",
+      "unlock": "act1"
+    },
+    "staff_channel/messages.log": {
+      "modified": "2026-11-01T00:41:00+02:00",
+      "unlock": "act1"
+    },
+    "venue/floorplan.svg": {
+      "modified": "2026-10-24T12:00:00+02:00",
+      "unlock": "act1"
+    },
+    "venue/registration.csv": {
+      "modified": "2026-11-01T00:20:14+02:00",
+      "unlock": "act1"
+    }
+  }
+}

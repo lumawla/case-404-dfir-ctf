@@ -1,0 +1,20 @@
+{
+  "record_type": "MASKED Social - post audit record",
+  "post_id": "msp-oct31-0442",
+  "account": "@yasmine.angel",
+  "display_name": "Yasmine M.",
+  "caption": "Wings on, mic on. Thank you for the most generous night of the year!",
+  "attached_media": "IMG_4471.jpg",
+  "feed_rendition": "msp-oct31-0442_1080.jpg",
+  "media_uploaded_at": "2026-10-31T23:52:58+02:00",
+  "published_at": "2026-10-31T23:53:00+02:00",
+  "publish_method": "manual",
+  "client": "MASKED Social iOS 6.2",
+  "session": {
+    "device_name": "Salmas-iPhone",
+    "ip": "10.31.4.88",
+    "signed_in_on_device": "2026-10-31T21:14:30+02:00"
+  },
+  "reactions_at_export": 87,
+  "exported_at": "2026-11-01T01:30:12+02:00"
+}

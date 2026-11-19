@@ -1,0 +1,17 @@
+{
+  "app": "MASKED Messenger",
+  "device": "Nadia Haddad - iPhone (extraction DER-404-P1)",
+  "participants": ["NADIA", "LUCIEN"],
+  "messages": [
+    { "id": "dm-4310", "time": "2026-10-27 19:02", "from": "LUCIEN", "text": "Hello. Salma Nasser said I should ask you about the masquerade. Is it really open to anyone?" },
+    { "id": "dm-4311", "time": "2026-10-27 19:10", "from": "NADIA", "text": "Anyone with a ticket! It's for the children's ward. Costumes required." },
+    { "id": "dm-4312", "time": "2026-10-27 19:12", "from": "LUCIEN", "text": "I have a costume. I've never been to a party like this. A human one, I mean. A big one." },
+    { "id": "dm-4313", "time": "2026-10-27 19:13", "from": "NADIA", "text": "Haha you'll love it. See you there." },
+    { "id": "dm-4398", "time": "2026-10-31 22:52", "from": "NADIA", "text": "Can we talk about the photos? Not here." },
+    { "id": "dm-4399", "time": "2026-10-31 22:58", "from": "LUCIEN", "text": "Please don't post any of them." },
+    { "id": "dm-4401", "time": "2026-10-31 23:40", "from": "NADIA", "text": "You're missing from every photo Ziad took. Did you edit yourself out?" },
+    { "id": "dm-4402", "time": "2026-10-31 23:41", "from": "LUCIEN", "text": "Delete them before anyone sees. I can't explain it." },
+    { "id": "dm-4403", "time": "2026-10-31 23:42", "from": "NADIA", "text": "I won't share them. I just want to know if the files were altered." },
+    { "id": "dm-4404", "time": "2026-10-31 23:43", "from": "LUCIEN", "text": "I did not change them. Please keep this between us." }
+  ]
+}

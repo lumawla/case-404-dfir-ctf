@@ -1,0 +1,71 @@
+credential,name,credential_type,costume_registered,checked_in,id_photo
+N01,Nadia Haddad,staff,Fortune teller,18:41,OK
+A14,Yasmine Mansour,staff,Angel,18:44,OK
+T09,Tara Rahal,staff,Mad scientist,17:58,OK
+T10,Hadi Saab,staff,Staff (black tee),18:02,OK
+T11,Mira Saad,staff,Staff (black tee),18:05,OK
+P03,Ziad Khoury,staff,Staff (black tee),19:20,OK
+M01,Sami Aoun,staff,Staff (lanyard),17:30,OK
+SEC1,Fouad Badr,staff,Security vest,18:00,OK
+SEC2,Jana Ayoub,staff,Security vest,18:00,OK
+C01,Rawad Tannous,staff,Catering whites,18:10,OK
+C02,Zeina Ghanem,staff,Catering whites,18:14,OK
+C03,Marc Sfeir,staff,Catering whites,18:18,OK
+C04,Layal Bou Saab,staff,Catering whites,18:22,OK
+C05,Samir Nakhle,staff,Catering whites,18:26,OK
+V01,Christelle Wakim,staff,Grim reaper,19:05,OK
+V02,Ali Zein,staff,Grim reaper,19:08,OK
+V03,Maria Azar,staff,Skeleton,19:11,OK
+V04,Ralph Kassis,staff,Grim reaper,19:14,OK
+V05,Tamara Najjar,staff,Bat,19:17,OK
+V06,Joe Hatem,staff,Skeleton,19:20,OK
+V07,Perla Dib,staff,Grim reaper,19:23,OK
+V08,Wassim Harb,staff,Witch,19:26,OK
+G01,Rana Aoun,guest wristband,Werewolf,21:44,OK
+G02,Jad Saleh,guest wristband,Mummy,22:11,OK
+G03,Maya Khoury,guest wristband,Black cat,21:29,OK
+G04,Karim Darwish,guest wristband,"Masked slasher (hockey mask, foam prop machete)",22:19,OK
+G05,Rami Fares,guest wristband,Haunted doll,20:05,OK
+G06,Nour Abboud,guest wristband,Skeleton,20:25,OK
+G07,Elie Daher,guest wristband,Pirate ghost,21:34,OK
+G08,Lea Karam,guest wristband,Skeleton,21:10,OK
+G09,Georges Abi Nader,guest wristband,Grim reaper,21:10,OK
+G10,Lina Chami,guest wristband,Black cat,22:52,OK
+G11,Omar Khalil,guest wristband,Pumpkin king,20:55,OK
+G12,Fadi Rizkallah,guest wristband,Headless horseman,22:03,OK
+G13,Yara Hajj,guest wristband,Medusa,23:02,OK
+G14,Nadine Fakhoury,guest wristband,Black cat,22:49,OK
+G15,Bilal Itani,guest wristband,Werewolf,23:08,OK
+G16,Sara Mouawad,guest wristband,Jack-o'-lantern,20:14,OK
+G17,Celine Matar,guest wristband,Witch,21:48,OK
+G18,Hassan Jaber,guest wristband,Black cat,22:35,OK
+G19,Rita Saliba,guest wristband,Frankenstein's monster,20:00,OK
+G20,Karen Chidiac,guest wristband,Plague doctor,22:24,OK
+G21,Elias Moussa,guest wristband,Haunted doll,22:12,OK
+G22,Mona Halabi,guest wristband,Plague doctor,21:04,OK
+G23,Charbel Daou,guest wristband,Raven,20:40,OK
+G24,Lara Nehme,guest wristband,Medusa,21:03,OK
+G25,Hiba Sayegh,guest wristband,Medusa,22:02,OK
+G26,Kevin Abou Jaoude,guest wristband,Bat,21:44,OK
+G27,Rania Ezzeddine,guest wristband,Plague doctor,20:32,OK
+G28,Tony Feghali,guest wristband,Witch,20:11,OK
+G29,Nayla Sarkis,guest wristband,Mummy,22:30,OK
+G30,Ghassan Tabet,guest wristband,Jack-o'-lantern,20:16,OK
+G31,Dana Rizk,guest wristband,Banshee,23:20,OK
+G32,Dima Rached,guest wristband,Skeleton,22:24,OK
+G33,Walid Hobeika,guest wristband,Mummy,20:29,OK
+G34,Yasmina Tohme,guest wristband,Witch,22:02,OK
+G35,Antoine Bitar,guest wristband,Skeleton,21:51,OK
+G36,Carla Khalife,guest wristband,Mummy,19:53,OK
+G37,Nabil Shehadeh,guest wristband,Witch,20:59,OK
+G38,Reem Assaf,guest wristband,Scarecrow,23:06,OK
+G39,Patrick Nassif,guest wristband,Spider queen,22:24,OK
+G40,Hala Ghosn,guest wristband,Witch,21:41,OK
+G41,Sami Kanaan,guest wristband,Medusa,21:09,OK
+G42,Joanna Freiha,guest wristband,Spider queen,22:20,OK
+G43,Michel Rahme,guest wristband,Devil,20:31,OK
+G44,Leila Barakat,guest wristband,Spider queen,20:34,OK
+G45,Omar Zahreddine,guest wristband,Headless horseman,20:47,OK
+G46,Tala Mikati,guest wristband,Skeleton,21:06,OK
+L07,Lucien Moreau,guest wristband,Vampire,21:02,FAILED x3 (guest declined a retake: camera shy)
+S02,Salma Nasser,guest wristband,"Witch (black hat, black lace dress)",21:37,OK

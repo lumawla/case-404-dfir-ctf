@@ -1,0 +1,109 @@
+{
+  "$comment": "Accusation options and spoiler-gated endings. The correctness rule lives in private/organizer/answers.json.",
+  "suspects": [
+    {
+      "id": "yasmine",
+      "name": "Yasmine Mansour",
+      "alias": "The Angel",
+      "portrait": "/portraits/yasmine.jpg"
+    },
+    {
+      "id": "lucien",
+      "name": "Lucien Moreau",
+      "alias": "The Vampire",
+      "portrait": null
+    },
+    {
+      "id": "karim",
+      "name": "Karim Darwish",
+      "alias": "The Masked Killer",
+      "portrait": "/portraits/karim.jpg"
+    },
+    {
+      "id": "tara",
+      "name": "Tara Rahal",
+      "alias": "The Mad Scientist",
+      "portrait": "/portraits/tara.jpg"
+    },
+    {
+      "id": "salma",
+      "name": "Salma Nasser",
+      "alias": "The Witch",
+      "portrait": "/portraits/salma.jpg"
+    }
+  ],
+  "motives": [
+    {
+      "id": "secret",
+      "label": "To keep a secret about themselves from coming out"
+    },
+    {
+      "id": "grudge",
+      "label": "Revenge for being thrown off the committee"
+    },
+    {
+      "id": "invoices",
+      "label": "To hide inflated AV rental invoices"
+    },
+    {
+      "id": "report",
+      "label": "To stop Nadia reporting stolen fundraiser money to the Dean"
+    },
+    {
+      "id": "rivalry",
+      "label": "Jealousy over Nadia's position as chair"
+    },
+    {
+      "id": "confrontation",
+      "label": "A confrontation that got out of hand"
+    }
+  ],
+  "maxFiles": 3,
+  "messages": {
+    "incorrect": "The accusation doesn't hold up. One attempt left.",
+    "finalIncorrect": "The accusation doesn't hold up. Your report is filed as unresolved.",
+    "correct": "Case closed. The accusation holds."
+  },
+  "endings": {
+    "solved": {
+      "title": "Case closed",
+      "text": "You named Yasmine, the theft she was hiding from the Dean, and the records that put her in the projection room. Her alibi was a photo posted by someone else, her frame was an edited export, and the backup she forgot about kept the payment she erased."
+    },
+    "solved_accomplice": {
+      "title": "Case closed",
+      "text": "You named Yasmine, the theft she was hiding from the Dean, and the records that put her in the projection room, and you caught Salma, who kept Lucien in the booth, posted the fake alibi and lied about all of it."
+    },
+    "wrong_lucien": {
+      "title": "Wrong accusation",
+      "text": "You accused the guest who doesn't show up in photographs. The booth counted him on its seat while Nadia died, and the controller never let his wristband near that door. Lucien only came to see a human party."
+    },
+    "wrong_karim": {
+      "title": "Wrong accusation",
+      "text": "Angry messages and a frightening costume drew the eye. The north gate camera and a kiosk receipt put him off campus when it happened."
+    },
+    "wrong_tara": {
+      "title": "Wrong accusation",
+      "text": "The livestream really did fail. But the local recorder, which never stopped, kept her at the DJ station the whole time."
+    },
+    "wrong_salma": {
+      "title": "Wrong accusation",
+      "text": "Salma lied and helped, but she was in the photo booth with Lucien when Nadia died. The person she was covering for walks free."
+    },
+    "wrong_yasmine": {
+      "title": "Unsupported accusation",
+      "text": "You named the right person and couldn't prove it. The right name without the right motive and a defensible chain of evidence doesn't close a case."
+    },
+    "expired": {
+      "title": "Time expired",
+      "text": "The clock ran out before your team filed an accusation that held. The full story is shown after the organizers' closing reveal."
+    },
+    "active": {
+      "title": "Investigation in progress",
+      "text": "Your case is still open."
+    }
+  },
+  "reconstruction": {
+    "text": "Yasmine Mansour had been paying herself out of the fundraiser for the children's ward to cover tuition she couldn't afford. When Nadia found the duplicate Black Cat AV payment, Yasmine knew it was a matter of time. Two weeks earlier, her roommate Salma had discovered that Lucien Moreau, a quiet student in a vampire costume, doesn't show up in photographs, because he really is a vampire. A man who can't be photographed can't prove where he was, so Salma invited him to the party. On the night, Nadia scheduled an email to the Dean for 08:00. As MOTH, Yasmine asked her to the projection room at 23:50. Salma kept Lucien in the photo booth from 23:50 to 23:55 and posted Yasmine's run-through photo at 23:53 so she would look like she was onstage. Yasmine killed Nadia, cancelled the email on Nadia's own phone, screenshotted Lucien's plea, swapped her badge for his wristband in an exported door log, and sent both to the staff channel before anyone had found the body. Then she told Salma to say she'd been alone. Lucien never hurt anyone. He only wanted, once, to go to a human party.",
+    "stinger": "As the case closes, one more booth print arrives: Salma smiling beside an empty space. On the back, in neat, old-fashioned handwriting: \"Thank you for believing the records. L.\""
+  }
+}

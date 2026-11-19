@@ -1,0 +1,9 @@
+{
+  "$comment": "Practice room tasks (unscored). Answers live in private/organizer/answers.json under 'practice'.",
+  "tasks": [
+    { "id": "hidden", "title": "Hidden in plain sight", "description": "There is a note in the practice folder that a plain listing doesn't show. What is the practice word?", "format": "FLAG{WORD}" },
+    { "id": "metadata", "title": "When was it taken?", "description": "Photos carry information you can't see in the picture. At what time was cat.jpg taken?", "format": "FLAG{HHMM} · 24-hour time" },
+    { "id": "integrity", "title": "Spot the edit", "description": "Two copies of the guest list are in the lists folder. One of them was changed after its checksum was recorded. Which one: A or B?", "format": "FLAG{LETTER} · A or B" },
+    { "id": "cipher", "title": "Shifted", "description": "Decode the note on the desk. What is the password?", "format": "FLAG{PASSWORD}" }
+  ]
+}

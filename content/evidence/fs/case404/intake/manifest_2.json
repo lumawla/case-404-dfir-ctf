@@ -1,0 +1,67 @@
+{
+  "manifest": "CASE 404 - EVIDENCE INTAKE, BATCH 2",
+  "intake_desk": "Digital Evidence Response",
+  "hash_algorithm": "SHA-256",
+  "paths_relative_to": "~/case404",
+  "hashed": "At collection, before any analysis",
+  "sealed": [
+    {
+      "item": "DER-404-11",
+      "path": "social/originals/IMG_4471.jpg",
+      "description": "MASKED Social media store, original upload",
+      "collected_at": "2026-11-01T01:30:12+02:00",
+      "bytes": 340206,
+      "sha256": "0e01237401bc7058bd39309fed39770f0d5d08d5dcde2c6069e3e13dd21e1897"
+    },
+    {
+      "item": "DER-404-12",
+      "path": "cctv/nvr8/CAM-03_20261031_234807.jpg",
+      "description": "Local recorder NVR-8, corridor camera still",
+      "collected_at": "2026-11-01T01:12:15+02:00",
+      "bytes": 60194,
+      "sha256": "10c02375e0565771c2c770fb364af0456421d523a44634adcc49e255ea3d24d9"
+    },
+    {
+      "item": "DER-404-13",
+      "path": "cctv/nvr8/CAM-01_dj_station.csv",
+      "description": "Local recorder NVR-8 and mixing console log",
+      "collected_at": "2026-11-01T01:12:15+02:00",
+      "bytes": 836,
+      "sha256": "e618c11c97410d6e0fd3975f037f4f22364f1b45b87489604d5ce5d5d4285b5d"
+    },
+    {
+      "item": "DER-404-14",
+      "path": "phones/salma_nasser/sms.db",
+      "description": "Witness's phone, Messages database (copied without opening)",
+      "collected_at": "2026-11-01T02:10:00+02:00",
+      "bytes": 12288,
+      "sha256": "43b957c10e584d35d5f4e1d1b07ec3dea4605ff8dfe12d0222b86a5fa54bb11f"
+    },
+    {
+      "item": "DER-404-15",
+      "path": "logs/maskmail_auth.log",
+      "description": "maskmail-01 authentication log",
+      "collected_at": "2026-11-01T00:58:02+02:00",
+      "bytes": 1884,
+      "sha256": "31c25e21e3e45042103a4f565f269dba6768d750ec2c225c18d9403acf2bcff7"
+    },
+    {
+      "item": "DER-404-16",
+      "path": "network/wifi.log",
+      "description": "Venue Wi-Fi controller log",
+      "collected_at": "2026-11-01T01:05:00+02:00",
+      "bytes": 10274,
+      "sha256": "9b4ea4e251c4f0eec01b3bf179ab8febf29ad5fd49daa6c3d94f4acc797bf929"
+    },
+    {
+      "item": "DER-404-17",
+      "path": "finance/expenses_export.csv",
+      "description": "Event finance dashboard, current export",
+      "collected_at": "2026-11-01T00:48:00+02:00",
+      "bytes": 5629,
+      "sha256": "4be446369d1ff898f91b41c84e7f82fb7bc12ef0a32f7950e8aab6cc6fe9ee1c"
+    }
+  ],
+  "not_sealed": "Material received second-hand (forwarded files, screenshots, re-exports) is not authenticated and is not listed.",
+  "notice": "Fictional in-story record for CASE 404. Not a real legal certification."
+}

@@ -1,0 +1,9 @@
+DIGITAL EVIDENCE RESPONSE - MOBILE EXTRACTION REPORT
+Reference:  DER-404-P2
+Device:     iPhone "Salmas-iPhone" (owner: Salma Nasser), seized 01:50
+            after her statement was contradicted by the photo booth records
+Extraction: full file system, 2026-11-01 02:10 (+02:00)
+Contents:   sms.db          Messages database, copied as-is
+            media_log.csv   camera roll index
+Note:       The Messages app was not opened during extraction, so nothing
+            on the device was changed.

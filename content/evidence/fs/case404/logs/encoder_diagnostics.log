@@ -1,0 +1,9 @@
+# MASKED AV - livestream encoder diagnostics, Blackthorn Hall, 2026-10-31 (+02:00)
+23:45:58 encoder  WARN  frame drops 37% (uplink saturated)
+23:46:40 encoder  ERROR buffer stall, output frozen
+23:47:02 console  INFO  operator T09: RESTART encoder (DJ/AV station)
+23:47:03 stream   ERROR public livestream OFFLINE
+23:49:12 encoder  INFO  firmware reload 1/3
+23:53:02 encoder  INFO  firmware reload 2/3
+23:56:20 encoder  INFO  firmware reload 3/3
+23:57:00 stream   INFO  public livestream ONLINE

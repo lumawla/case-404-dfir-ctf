@@ -1,0 +1,86 @@
+/*
+ * CASE 404 design tokens.
+ * Palette: the five colours supplied for the revamp. Everything else is a tint or shade of them.
+ * Contrast (on --bg): --text 9.6:1, --text-muted 6.5:1, --accent 5.1:1. --stone is for lines and
+ * large text only (3.7:1).
+ */
+:root {
+  --ink: #100e11;
+  --oxblood: #2c0001;
+  --crimson: #490206;
+  --bone: #c0b5b3;
+  --stone: #706b68;
+
+  --bg: var(--ink);
+  --surface: #160f12;
+  --surface-2: #1d1215;
+  --surface-hover: #261519;
+  --surface-sunken: #0b090c;
+  --border: rgba(112, 107, 104, 0.3);
+  --border-strong: rgba(112, 107, 104, 0.6);
+  --rule: #3a0a0f;
+
+  --text: var(--bone);
+  --text-strong: #e6dedc;
+  --text-muted: #9c9491;
+  --accent: #d65c64;
+  --accent-strong: #e0737a;
+  --primary: var(--crimson);
+  --primary-hover: #5f060c;
+  --primary-border: #7a1219;
+  --focus: #e0737a;
+  --danger-bg: rgba(73, 2, 6, 0.55);
+  --owned: #e6dedc;
+
+  --font-title: "UnifrakturMaguntia", "Old English Text MT", "Luminari", serif;
+  --font-body: "Crimson Pro Variable", "Crimson Pro", Georgia, "Times New Roman", serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+
+  --base-size: 18px;
+  --text-xs: 0.8rem;
+  --text-sm: 0.9rem;
+  --text-md: 1rem;
+  --text-lg: 1.15rem;
+  --text-xl: 1.4rem;
+  --text-2xl: 1.9rem;
+  --text-3xl: clamp(2.2rem, 5vw, 3rem);
+  --text-hero: clamp(3.2rem, 12vw, 7rem);
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  --radius-sm: 4px;
+  --radius: 6px;
+  --radius-lg: 10px;
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.55);
+  --topbar-h: 56px;
+
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --fast: 140ms;
+  --med: 240ms;
+
+  color-scheme: dark;
+}
+
+:root[data-text-scale="lg"] {
+  --base-size: 20px;
+}
+:root[data-text-scale="xl"] {
+  --base-size: 22px;
+}
+
+:root[data-contrast="high"] {
+  --text: #ece6e4;
+  --text-muted: #c0b5b3;
+  --border: rgba(192, 181, 179, 0.45);
+  --border-strong: rgba(192, 181, 179, 0.75);
+  --accent: #ef8d93;
+}

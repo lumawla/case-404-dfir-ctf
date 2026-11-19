@@ -1,0 +1,9 @@
+timestamp,account,object,action,detail
+2026-10-23 21:20:03,nadia.chair,finance/expenses_export.csv,VIEW,
+2026-10-30 21:40:12,nadia.chair,vendors/black_cat_av,REQUEST_STATEMENT,
+2026-10-31 18:02:55,tara.av,av/equipment_booking_oct31,EDIT,
+2026-10-31 19:12:44,yasmine.treasurer,finance/expenses_export.csv,DELETE_ROW,invoice BC-104-DUP
+2026-10-31 23:59:10,tara.av,av/encoder_diagnostics.log,EXPORT,
+2026-11-01 00:00:21,yasmine.treasurer,acs/ACS-EXP-7731,EXPORT,window 18:00-24:00
+2026-11-01 00:01:03,yasmine.treasurer,acs/ACS-EXP-7734,SAVE_EDITED_COPY,from ACS-EXP-7731
+2026-11-01 00:03:40,yasmine.treasurer,acs/ACS-EXP-7734,SHARE_ANONYMOUS,#masquerade-crew as door_log.csv

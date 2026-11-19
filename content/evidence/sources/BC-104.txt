@@ -1,0 +1,20 @@
+INVOICE BC-104
+Issued: 2026-10-24          Due: 2026-11-07
+Vendor: Black Cat AV (fictional vendor created for CASE 404)
+Bill to: Blackthorn Halloween Charity Masquerade - Student Union events account
+
+ITEM                                               USD
+PA system rental (2 tops, 2 subs), Oct 31        900.00
+Moving-head lighting package (8 units)           850.00
+Projector and 4 m screen for the main floor      450.00
+Setup and strike technician (6 h)                200.00
+---------------------------------------------------------
+TOTAL                                           2400.00
+
+Remit to: Black Cat AV operating account ending 8802
+
+VENDOR ACCOUNT STATEMENT (requested by Nadia Haddad, 2026-10-30)
+Payments received against BC-104: 1
+  2026-10-26   USD 2400.00   into account ending 8802
+Black Cat AV has not issued any invoice numbered BC-104-DUP
+and holds no account ending 0412.

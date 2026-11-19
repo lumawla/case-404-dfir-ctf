@@ -1,0 +1,13 @@
+{
+  "$comment": "Practice folder (lobby, unscored). Same format as content/evidence/meta.json.",
+  "root": "training",
+  "files": {
+    ".secret_note": { "modified": "2026-10-01T09:30:00+02:00" },
+    "README.txt": { "modified": "2026-10-01T09:00:00+02:00" },
+    "cat.jpg": { "modified": "2026-10-01T09:15:04+02:00" },
+    "lists/checksums.txt": { "modified": "2026-10-01T09:20:00+02:00" },
+    "lists/guests_a.csv": { "modified": "2026-10-01T09:20:00+02:00" },
+    "lists/guests_b.csv": { "modified": "2026-10-01T09:20:00+02:00" },
+    "note.txt": { "modified": "2026-10-01T10:05:00+02:00" }
+  }
+}

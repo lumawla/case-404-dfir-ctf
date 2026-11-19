@@ -1,0 +1,89 @@
+date,payee,amount_usd,account_last4,approved_by,invoice
+2026-09-01,Campus Print Shop,65,9014,Yasmine Mansour,CPS-031
+2026-09-03,Fog & Fable FX,320,6123,Tara Rahal,FF-023
+2026-09-03,Student Union Venue Office,500,1001,Yasmine Mansour,SU-034
+2026-09-04,Bone & Bramble Florists,240,2209,Nadia Haddad,BB-033
+2026-09-04,Hollow Lantern Decor,895,5521,Nadia Haddad,HL-039
+2026-09-05,Fog & Fable FX,535,6123,Tara Rahal,FF-024
+2026-09-06,Campus Print Shop,210,9014,Yasmine Mansour,CPS-033
+2026-09-06,Neon Pulse Rentals,1055,7730,Tara Rahal,NP-062
+2026-09-07,Fog & Fable FX,675,6123,Yasmine Mansour,FF-026
+2026-09-08,Campus Security Services,285,3156,Nadia Haddad,CS-015
+2026-09-08,Hollow Lantern Decor,185,5521,Yasmine Mansour,HL-042
+2026-09-09,Neon Pulse Rentals,1440,7730,Tara Rahal,NP-065
+2026-09-09,Crescent Catering,385,3307,Nadia Haddad,CC-050
+2026-09-09,Moonlight Costume Rentals,260,7302,Yasmine Mansour,MC-046
+2026-09-11,Student Union Venue Office,295,1001,Yasmine Mansour,SU-037
+2026-09-12,Moonlight Costume Rentals,425,7302,Yasmine Mansour,MC-049
+2026-09-13,Campus Security Services,615,3156,Nadia Haddad,CS-017
+2026-09-13,Crescent Catering,435,3307,Nadia Haddad,CC-051
+2026-09-13,Moonlight Costume Rentals,405,7302,Yasmine Mansour,MC-052
+2026-09-14,Fog & Fable FX,460,6123,Yasmine Mansour,FF-028
+2026-09-14,Hollow Lantern Decor,435,5521,Yasmine Mansour,HL-044
+2026-09-15,Fog & Fable FX,530,6123,Tara Rahal,FF-029
+2026-09-15,Neon Pulse Rentals,790,7730,Tara Rahal,NP-068
+2026-09-16,Student Union Venue Office,540,1001,Yasmine Mansour,SU-038
+2026-09-17,Student Union Venue Office,305,1001,Yasmine Mansour,SU-041
+2026-09-18,Student Union Venue Office,170,1001,Yasmine Mansour,SU-042
+2026-09-18,Student Union Venue Office,305,1001,Yasmine Mansour,SU-044
+2026-09-18,Crescent Catering,875,3307,Nadia Haddad,CC-052
+2026-09-19,Hollow Lantern Decor,155,5521,Yasmine Mansour,HL-047
+2026-09-21,Student Union Venue Office,200,1001,Yasmine Mansour,SU-047
+2026-09-21,Campus Print Shop,70,9014,Yasmine Mansour,CPS-036
+2026-09-22,Moonlight Costume Rentals,120,7302,Yasmine Mansour,MC-053
+2026-09-22,Bone & Bramble Florists,240,2209,Nadia Haddad,BB-036
+2026-09-24,Student Union Venue Office,220,1001,Yasmine Mansour,SU-050
+2026-09-25,Bone & Bramble Florists,390,2209,Nadia Haddad,BB-038
+2026-09-25,Neon Pulse Rentals,1130,7730,Tara Rahal,NP-069
+2026-09-26,Student Union Venue Office,275,1001,Yasmine Mansour,SU-053
+2026-09-26,Hollow Lantern Decor,255,5521,Yasmine Mansour,HL-049
+2026-09-27,Student Union Venue Office,485,1001,Yasmine Mansour,SU-055
+2026-09-28,Black Cat AV,1235,8802,Yasmine Mansour,BC-038
+2026-09-28,Spectral Sound Hire,725,5840,Tara Rahal,SS-046
+2026-09-28,Campus Security Services,535,3156,Nadia Haddad,CS-019
+2026-09-29,Fog & Fable FX,315,6123,Yasmine Mansour,FF-031
+2026-09-29,Neon Pulse Rentals,965,7730,Tara Rahal,NP-071
+2026-09-30,Moonlight Costume Rentals,85,7302,Yasmine Mansour,MC-055
+2026-09-30,Student Union Venue Office,420,1001,Yasmine Mansour,SU-058
+2026-10-01,Campus Security Services,775,3156,Nadia Haddad,CS-022
+2026-10-01,Campus Print Shop,215,9014,Yasmine Mansour,CPS-039
+2026-10-02,Moonlight Costume Rentals,245,7302,Yasmine Mansour,MC-056
+2026-10-02,Fog & Fable FX,300,6123,Yasmine Mansour,FF-034
+2026-10-03,Bone & Bramble Florists,160,2209,Nadia Haddad,BB-039
+2026-10-04,Bone & Bramble Florists,245,2209,Nadia Haddad,BB-040
+2026-10-04,Neon Pulse Rentals,440,7730,Tara Rahal,NP-074
+2026-10-04,Hollow Lantern Decor,885,5521,Nadia Haddad,HL-050
+2026-10-05,Campus Security Services,385,3156,Nadia Haddad,CS-025
+2026-10-05,Moonlight Costume Rentals,435,7302,Yasmine Mansour,MC-059
+2026-10-06,Neon Pulse Rentals,1660,7730,Tara Rahal,NP-075
+2026-10-06,Black Cat AV,975,8802,Yasmine Mansour,BC-039
+2026-10-07,Neon Pulse Rentals,820,7730,Tara Rahal,NP-078
+2026-10-08,Spectral Sound Hire,425,5840,Tara Rahal,SS-048
+2026-10-09,Bone & Bramble Florists,235,2209,Nadia Haddad,BB-043
+2026-10-09,Hollow Lantern Decor,750,5521,Yasmine Mansour,HL-051
+2026-10-10,Crescent Catering,560,3307,Nadia Haddad,CC-053
+2026-10-10,Student Union Venue Office,270,1001,Yasmine Mansour,SU-061
+2026-10-11,Campus Security Services,500,3156,Nadia Haddad,CS-026
+2026-10-11,Student Union Venue Office,600,1001,Yasmine Mansour,SU-063
+2026-10-12,Crescent Catering,600,3307,Nadia Haddad,CC-056
+2026-10-13,Bone & Bramble Florists,365,2209,Nadia Haddad,BB-044
+2026-10-14,Hollow Lantern Decor,415,5521,Nadia Haddad,HL-053
+2026-10-15,Campus Security Services,335,3156,Nadia Haddad,CS-029
+2026-10-15,Neon Pulse Rentals,1100,7730,Tara Rahal,NP-079
+2026-10-16,Spectral Sound Hire,505,5840,Tara Rahal,SS-049
+2026-10-18,Hollow Lantern Decor,300,5521,Yasmine Mansour,HL-056
+2026-10-18,Campus Security Services,730,3156,Nadia Haddad,CS-031
+2026-10-18,Campus Security Services,355,3156,Nadia Haddad,CS-033
+2026-10-19,Black Cat AV,765,8802,Tara Rahal,BC-040
+2026-10-20,Hollow Lantern Decor,640,5521,Nadia Haddad,HL-0031
+2026-10-21,Moonlight Costume Rentals,315,7302,Yasmine Mansour,MC-118
+2026-10-22,Neon Pulse Rentals,1850,7730,Tara Rahal,NP-2210
+2026-10-23,Bone & Bramble Florists,260,2209,Nadia Haddad,BB-074
+2026-10-24,Crescent Catering,1120,3307,Nadia Haddad,CC-889
+2026-10-25,Fog & Fable FX,410,6123,Tara Rahal,FF-311
+2026-10-26,Black Cat AV,2400,8802,Yasmine Mansour,BC-104
+2026-10-27,Campus Security Services,560,3156,Nadia Haddad,CS-020
+2026-10-28,Campus Print Shop,185,9014,Yasmine Mansour,CPS-77
+2026-10-29,Black Cat AV,2400,0412,Yasmine Mansour,BC-104-DUP
+2026-10-29,Spectral Sound Hire,690,5840,Tara Rahal,SS-205
+2026-10-30,Student Union Venue Office,450,1001,Yasmine Mansour,SU-031

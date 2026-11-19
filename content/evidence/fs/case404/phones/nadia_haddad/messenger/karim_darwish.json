@@ -1,0 +1,12 @@
+{
+  "app": "MASKED Messenger",
+  "device": "Nadia Haddad - iPhone (extraction DER-404-P1)",
+  "participants": ["NADIA", "KARIM"],
+  "messages": [
+    { "id": "km-01", "time": "2026-10-18 21:02", "from": "KARIM", "text": "You humiliated me in front of the whole committee." },
+    { "id": "km-02", "time": "2026-10-18 21:05", "from": "NADIA", "text": "The ticket numbers didn't add up, Karim. I had to act." },
+    { "id": "km-03", "time": "2026-10-31 22:41", "from": "KARIM", "text": "Nice party. Enjoy it while it lasts." },
+    { "id": "km-04", "time": "2026-10-31 22:43", "from": "KARIM", "text": "You'll regret making me the villain." },
+    { "id": "km-05", "time": "2026-10-31 23:41", "from": "KARIM", "text": "I'm leaving. This night is dead to me." }
+  ]
+}
