@@ -8,7 +8,7 @@ Blackthorn Hall, 31 October. The charity masquerade was at its loudest when the 
 
 Designed, built and presented by **Lea El Mawla** ([@lumawla](https://github.com/lumawla)).
 
-> **Spoiler policy.** This README is spoiler-free. The culprit, flags and full solution live in [`private/organizer/`](private/organizer/), which the server reads but never serves. If you plan to play, don't open that folder.
+> **Spoiler policy.** This README is spoiler-free. The culprit, flags and full solution live in [`private/organizer/`](private/organizer/), which the server reads but never serves to players. If you plan to play, don't open that folder. If you want to run CASE 404 for your own event, host it from a private copy of this repository, because the answer key is public here.
 
 ## The event
 
@@ -49,6 +49,17 @@ The slides I presented, with full speaker notes:
 
 **Teaching and communication**
 - Wrote and delivered the beginner lecture, the speaker notes, the practice tasks and the in-game cheat sheet for people with no command-line experience.
+
+## Tech stack
+
+| Layer | Tools |
+|---|---|
+| Front end | React 19, TypeScript, Vite 8, plain CSS with a custom design system (blackletter titles, terminal UI) |
+| Back end | Node.js 22, Fastify 5, SQLite via the built-in `node:sqlite`, server-side flag checking and rate limiting |
+| In-browser terminal | A TypeScript shell over a virtual file system: parser, pipes, globs, redirection and about 50 commands |
+| Evidence pipeline | Node scripts for the seeded evidence and hash manifests, Python (Pillow, numpy) for photo grading, Chromium for image, PDF and EXIF generation |
+| Testing | Vitest (unit and API integration), Playwright (end-to-end on desktop and phone) |
+| Deployment | Docker, Render blueprint, Cloudflare quick tunnel (`npm run host`) |
 
 ## A look inside
 

@@ -19,8 +19,8 @@ COPY --from=build /app/apps/api/package.json ./apps/api/
 COPY --from=build /app/apps/api/dist ./apps/api/dist
 COPY --from=build /app/apps/web/dist ./apps/web/dist
 COPY --from=build /app/content ./content
-# The answer key ships in the image only because this repository is private.
-# Prefer mounting it instead: -v /secure/answers.json:/run/secrets/answers.json -e CASE_ANSWERS_PATH=/run/secrets/answers.json
+# The answer key is baked into the image for convenience. This repository is public, so for a real event
+# build from a private copy or mount the key instead: -v /secure/answers.json:/run/secrets/answers.json -e CASE_ANSWERS_PATH=/run/secrets/answers.json
 COPY --from=build /app/private/organizer/answers.json ./private/organizer/answers.json
 RUN mkdir -p /app/data && chown -R node:node /app/data
 USER node
